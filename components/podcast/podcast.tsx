@@ -70,7 +70,7 @@ export default function Podcast() {
                                     // open a link in a new tab
                                     window.open(person.youtubeUrl)
                                 }
-                            } src={person.imageUrl} className="aspect-[3/2] w-full rounded-2xl object-cover cursor-pointer" />
+                            } src={person.imageUrl} className="aspect-[16/9] w-full rounded-2xl object-cover cursor-pointer" />
                             <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                             <p className="text-base leading-7 text-gray-600">{person.role}</p>
                             <ul role="list" className="mt-6 flex gap-x-6">
