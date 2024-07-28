@@ -4,10 +4,6 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import {
-  ChartPieIcon,
-  CursorArrowRaysIcon
-} from '@heroicons/react/24/outline'
-import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
@@ -16,18 +12,18 @@ import {
   PopoverGroup,
   PopoverPanel,
 } from '@headlessui/react'
+import { TbLogs } from "react-icons/tb"
+import { MdOutlinePodcasts } from "react-icons/md"
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Use-Cases', href: '/usecases' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Docs', href: 'https://docs.structuredlabs.com' },
 ]
-import { TbLogs } from "react-icons/tb";
-import { MdOutlinePodcasts } from "react-icons/md";
 
 const products = [
-  { name: 'Blog', description: 'Ad anim eiusmod veniam amet aliquip nostrud veniam dolore esse fugiat duis.', href: '#', icon: TbLogs },
-  { name: 'Podcasts', description: 'Voluptate dolor ullamco duis cillum ea nulla nulla Lorem eiusmod elit sunt pariatur ex do.', href: '#', icon: MdOutlinePodcasts },
+  { name: 'Blog', description: 'Ad anim eiusmod veniam amet aliquip nostrud veniam dolore esse fugiat duis.', href: '/blog', icon: TbLogs },
+  { name: 'Podcasts', description: 'Voluptate dolor ullamco duis cillum ea nulla nulla Lorem eiusmod elit sunt pariatur ex do.', href: '/podcast', icon: MdOutlinePodcasts },
 ]
 
 export default function Example() {
