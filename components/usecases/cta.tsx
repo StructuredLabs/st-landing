@@ -22,14 +22,14 @@ export default function CTA() {
               />
               <button
                 type="submit"
-                className="flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex-none rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Subscribe
               </button>
             </div>
             <p className="mt-4 text-sm leading-6 text-gray-900">
               We care about your data. Read our{' '}
-              <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+              <a href="#" className="font-semibold text-blue-600 hover:text-blue-500">
                 privacy&nbsp;policy
               </a>
               .

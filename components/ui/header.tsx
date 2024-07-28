@@ -6,9 +6,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', href: '#' },
-  { name: 'Use-Cases', href: '#' },
-  { name: 'Pricing', href: '#' },
-  { name: 'Docs', href: '#' },
+  { name: 'Use-Cases', href: 'https://www.structuredlabs.com/usecases' },
+  { name: 'Pricing', href: 'https://www.structuredlabs.com/pricing' },
+  { name: 'Docs', href: 'https://www.docs.structuredlabs.com/intro' },
   { name: 'Resource', href: '#' },
 ]
 
@@ -19,8 +19,8 @@ export default function Example() {
     <header className="bg-white">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <a href="https://www.structuredlabs.com/" className="-m-1.5 p-1.5">
+            <span className="sr-only">Structured</span>
             <img alt="" src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/65d4da523a7af018c0b99c71_TransparentLogo.png" className="h-8 w-auto" />
           </a>
         </div>
@@ -32,13 +32,13 @@ export default function Example() {
           ))}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
-          <a href="#" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
+          <a href="https://app.structuredlabs.com/" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
             Log in
           </a>
           <a
             href="https://cal.com/structured/30min"
             target='_blank'
-            className="rounded-md bg-gray-800 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
+            className="rounded-md bg-slate-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
           >
             Demo
           </a>
@@ -96,7 +96,7 @@ export default function Example() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="https://app.structuredlabs.com/"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in

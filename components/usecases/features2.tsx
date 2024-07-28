@@ -29,7 +29,7 @@ export default function Features2() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+          <h2 className="text-base font-semibold leading-7 text-blue-600">Deploy faster</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Everything you need to deploy your app
           </p>
@@ -43,13 +43,13 @@ export default function Features2() {
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                  <feature.icon aria-hidden="true" className="h-5 w-5 flex-none text-indigo-600" />
+                  <feature.icon aria-hidden="true" className="h-5 w-5 flex-none text-blue-600" />
                   {feature.name}
                 </dt>
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                   <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
+                    <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-600">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
                   </p>

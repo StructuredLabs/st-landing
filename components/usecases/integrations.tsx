@@ -5,7 +5,7 @@ export default function Integrations() {
           <div className="-mx-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl md:grid-cols-3">
             <div className="bg-gray-400/5 p-8 sm:p-10">
               <img
-                alt="Transistor"
+                alt="Excel"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy17cXUpJDhhH8lUKq2AQVIINHzD2tqedPZw&s"
                 width={158}
                 height={48}
@@ -23,7 +23,7 @@ export default function Integrations() {
             </div>
             <div className="bg-gray-400/5 p-6 sm:p-10">
               <img
-                alt="Tuple"
+                alt="Calendar"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgAvooCyqfZxvP0RdZlrcRvMNL07j4KY2GQ&s"
                 width={158}
                 height={48}
@@ -32,8 +32,8 @@ export default function Integrations() {
             </div>
             <div className="bg-gray-400/5 p-6 sm:p-10">
               <img
-                alt="Laravel"
-                src="https://cdn.worldvectorlogo.com/logos/salesforce-2.svg"
+                alt="Salesforce"
+                src="images/salesforce.svg"
                 width={158}
                 height={48}
                 className="max-h-12 w-full object-contain"
@@ -41,8 +41,8 @@ export default function Integrations() {
             </div>
             <div className="bg-gray-400/5 p-6 sm:p-10">
               <img
-                alt="SavvyCal"
-                src="https://marketplace.workiva.com/sites/marketplace/files/images/logos/postgre-sql-logo-16-7-en.svg"
+                alt="PostgrseSQL"
+                src="images/postgres.svg"
                 width={158}
                 height={48}
                 className="max-h-12 w-full object-contain"
@@ -51,7 +51,7 @@ export default function Integrations() {
             <div className="bg-gray-400/5 p-6 sm:p-10">
               <img
                 alt="bigquery"
-                src="https://seeklogo.com/images/G/google-big-query-logo-AC63E7C329-seeklogo.com.png"
+                src="images/bigquery.svg"
                 width={158}
                 height={48}
                 className="max-h-12 w-full object-contain"
@@ -59,8 +59,8 @@ export default function Integrations() {
             </div>
             <div className="bg-gray-400/5 p-6 sm:p-10">
               <img
-                alt="Firestore"
-                src="https://miro.medium.com/v2/resize:fit:1200/1*a2Da_CQHUsSKTCTRI2tYhQ.png"
+                alt="Hubspot"
+                src="images/hubspot.svg"
                 width={158}
                 height={48}
                 className="max-h-12 w-full object-contain"
@@ -69,7 +69,16 @@ export default function Integrations() {
             <div className="bg-gray-400/5 p-6 sm:p-10">
               <img
                 alt="Intercom"
-                src="https://cdn.worldvectorlogo.com/logos/intercom-1.svg"
+                src="images/intercom.svg"
+                width={158}
+                height={48}
+                className="max-h-12 w-full object-contain"
+              />
+            </div>
+            <div className="bg-gray-400/5 p-6 sm:p-10">
+              <img
+                alt="Snowflake"
+                src="images/snowflake.svg"
                 width={158}
                 height={48}
                 className="max-h-12 w-full object-contain"

@@ -42,7 +42,7 @@ export default function Features() {
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
                 <dt className="text-base font-semibold leading-7 text-gray-900">
-                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
                     <feature.icon aria-hidden="true" className="h-6 w-6 text-white" />
                   </div>
                   {feature.name}
@@ -50,7 +50,7 @@ export default function Features() {
                 <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                   <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
+                    <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-600">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
                   </p>
