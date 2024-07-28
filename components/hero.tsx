@@ -27,12 +27,13 @@ export default function Hero() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="https://app.structuredlabs.com/sign-in"
+                  target='_blank'
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                <a href="https://docs.structuredlabs.com/intro" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -41,7 +42,7 @@ export default function Hero() {
               <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <img
                   alt="App screenshot"
-                  src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                  src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/663fba1c972cd11c02bda6f7_Screenshot%202024-05-10%20at%2010.21.39%20PM-p-2000.png"
                   width={2432}
                   height={1442}
                   className="rounded-md shadow-2xl ring-1 ring-gray-900/10"
