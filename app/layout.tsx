@@ -1,4 +1,4 @@
-import './css/style.css'
+
 
 import { Inter, Architects_Daughter } from 'next/font/google'
 
@@ -40,4 +40,3 @@ export default function RootLayout({
     </html>
   )
 }
- 
