@@ -57,7 +57,7 @@ export default function Features2() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <img
                         alt="App screenshot"
-                        src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                        src="images/query.png"
                         width={2432}
                         height={1442}
                         className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"

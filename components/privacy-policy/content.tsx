@@ -2,7 +2,7 @@ export default function Content() {
     return (
         <div className="bg-white px-6 py-32 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                <p className="text-base font-semibold leading-7 text-indigo-600">Privacy Policy</p>
+                <p className="text-base font-semibold leading-7 text-blue-600">Privacy Policy</p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Structured Labs, Inc. Privacy Policy</h1>
                 <p className="mt-6 text-xl leading-8">
                     Last updated: November 13, 2023
@@ -78,7 +78,7 @@ export default function Content() {
                         </li>
                         <li className="flex gap-x-3">
                             <span>
-                                Website refers to Structured, accessible from https://www.structuredlabs.io/
+                                Website refers to Structured, accessible from https://www.structuredlabs.com/
                             </span>
                         </li>
 
@@ -406,7 +406,7 @@ export default function Content() {
                     <p className="mt-6">
                         If you have any questions about this Privacy Policy, You can contact us:
 
-                        - By visiting this page on our website: https://www.structuredlabs.io/privacy-policy
+                        - By visiting this page on our website: https://www.structuredlabs.com/privacy-policy
                     </p>
 
                 </div>

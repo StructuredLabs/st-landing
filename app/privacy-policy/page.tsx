@@ -1,5 +1,4 @@
 import Content from "@/components/privacy-policy/content"
-import Hero from "@/components/privacy-policy/hero"
 
 export const metadata = {
   title: 'Privacy policy - Structured',
@@ -9,7 +8,6 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <Hero />
       <Content />
     </>
   )

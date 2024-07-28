@@ -2,7 +2,7 @@ export default function Content() {
     return (
         <div className="bg-white px-6 py-32 lg:px-8">
             <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-                <p className="text-base font-semibold leading-7 text-indigo-600">Terms of Service</p>
+                <p className="text-base font-semibold leading-7 text-blue-600">Terms of Service</p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Structured Labs, Inc. Terms of Service</h1>
                 <p className="mt-6 text-xl leading-8">
                     Last Updated: November 12, 2023
@@ -42,7 +42,7 @@ export default function Content() {
                         </li>
                         <li className="flex gap-x-3">
                             <span>
-                                <strong className="font-semibold text-gray-900">Cloud Service Fees:</strong> Section 5.2 of the Standard Terms is replaced with: Certain parts of the Product have different pricing plans, which are available at Provider's pricing page (https://structuredlabs.io/#Pricing). Within the Payment Period, Customer will pay Provider fees based on the Product tier selected at the time of account creation and Customer's usage per Subscription Period. Provider may update Product pricing by giving at least 30 days notice to Customer (including by email or notification within the Product), and the change will apply in the next Subscription Period.
+                                <strong className="font-semibold text-gray-900">Cloud Service Fees:</strong> Section 5.2 of the Standard Terms is replaced with: Certain parts of the Product have different pricing plans, which are available at Provider's pricing page (https://structuredlabs.com/pricing). Within the Payment Period, Customer will pay Provider fees based on the Product tier selected at the time of account creation and Customer's usage per Subscription Period. Provider may update Product pricing by giving at least 30 days notice to Customer (including by email or notification within the Product), and the change will apply in the next Subscription Period.
                             </span>
                         </li>
                         <li className="flex gap-x-3">
@@ -108,7 +108,7 @@ export default function Content() {
                     <ul role="list" className="mt-4 max-w-xl space-y-4 text-gray-600">
                         <li className="flex gap-x-3">
                             <span>
-                                <strong className="font-semibold text-gray-900">For Provider:</strong> notices@structuredlabs.io
+                                <strong className="font-semibold text-gray-900">For Provider:</strong> notices@structuredlabs.com
                             </span>
                         </li>
                         <li className="flex gap-x-3">

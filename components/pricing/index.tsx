@@ -14,10 +14,10 @@ import { Bars3Icon, MinusSmallIcon, PlusSmallIcon, XMarkIcon } from '@heroicons/
 import { CheckIcon } from '@heroicons/react/20/solid'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'Use-Cases', href: '/usecases' },
+  { name: 'Pricing', href: '/pricing' },
+  { name: 'Docs', href: 'https://docs.structuredlabs.com' },
 ]
 const pricing = {
   frequencies: [

@@ -9,7 +9,7 @@ const navigation = {
     { name: 'Contact', href: '/contact' },
     { name: 'Docs', href: 'https://docs.structuredlabs.com' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Podcasts', href: '/podcasts' },
+    { name: 'Podcasts', href: '/podcast' },
     { name: 'Status', href: 'https://structured.instatus.com/' },
   ],
   legal: [
@@ -93,6 +93,15 @@ export default function Footer() {
                   <item.icon aria-hidden="true" className="h-6 w-6" />
                 </a>
               ))}
+            </div>
+            <div className="flex items-center space-x-4 mt-8">
+              <span className="text-sm text-gray-600">Backed by:</span>
+                <a href="https://www.ycombinator.com">
+                    <img src="images/investors/YC.png" alt="YC" className="h-10" />
+                </a>
+                <a href="https://www.generalcatalyst.com">
+                    <img src="images/investors/GC.png" alt="GC" className="h-10" />
+                </a>
             </div>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">

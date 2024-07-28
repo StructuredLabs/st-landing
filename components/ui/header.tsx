@@ -33,7 +33,7 @@ export default function Example() {
     <header className="bg-white">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="https://www.structuredlabs.com/" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Structured</span>
             <img alt="" src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/65d4da523a7af018c0b99c71_TransparentLogo.png" className="h-8 w-auto" />
           </a>
@@ -61,7 +61,7 @@ export default function Example() {
                     className="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                   >
                     <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                      <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" />
+                      <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-blue-600" />
                     </div>
                     <div className="flex-auto">
                       <a href={item.href} className="block font-semibold text-gray-900">
@@ -115,7 +115,7 @@ export default function Example() {
             <a
               href="https://cal.com/structured/30min"
               target='_blank'
-              className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="ml-auto rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
             >
               Demo
             </a>
