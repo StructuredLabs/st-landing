@@ -1,8 +1,10 @@
+"use client";
+
 const posts = [
     {
         id: 1,
         title: 'Boost your conversion rate',
-        href: '#',
+        href: '/blog/1',
         description:
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         imageUrl:
@@ -33,7 +35,10 @@ export default function Blog() {
                 </div>
                 <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {posts.map((post) => (
-                        <article key={post.id} className="flex flex-col items-start justify-between">
+                        <div
+                            key={post.id}
+                            className="flex flex-col items-start justify-between cursor-pointer"
+                        >
                             <div className="relative w-full">
                                 <img
                                     alt=""
@@ -56,7 +61,9 @@ export default function Blog() {
                                 </div>
                                 <div className="group relative">
                                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                                        <a href={post.href}>
+                                        <a href={post.href} onClick={
+                                            () => window.open(post.href)
+                                        }>
                                             <span className="absolute inset-0" />
                                             {post.title}
                                         </a>
@@ -76,7 +83,7 @@ export default function Blog() {
                                     </div>
                                 </div>
                             </div>
-                        </article>
+                        </div>
                     ))}
                 </div>
             </div>
