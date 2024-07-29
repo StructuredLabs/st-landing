@@ -1,25 +1,74 @@
-const posts = [
+export const posts = [
     {
-      id: 1,
-      title: 'Boost your conversion rate',
-      href: '#',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.',
-      imageUrl:
-        'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
+        id: 1,
+        title: 'Boosting Team Collaboration with Structured’s New Slack Integration',
         href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+        description:
+            'Effective collaboration and timely access to data are crucial for any team striving for success. Structured’s new Slack integration bridges the gap between data insights and team communication, enabling real-time notifications, data queries, and seamless sharing of insights within Slack channels. In this blog post, we’ll explore a detailed use case scenario demonstrating how a marketing team can leverage Structured’s Slack integration to enhance their workflow and achieve better results.',
+        imageUrl: 'images/blogs/blog1.png',
+        date: 'June 6, 2024',
+        datetime: '2024-06-06',
+        category: { title: 'Technology', href: '#' },
+        author: {
+            name: 'Amrutha Gujjar',
+            role: 'Founder and CEO',
+            href: '#',
+            imageUrl: 'images/team/amrutha.png',
+        },
+    },
+    {
+        id: 2,
+        title: 'Breaking Down Silos: Structured\'s Role in Fostering Cross-Team Collaboration in Revenue Operations',
+        href: '#',
+        description:
+            'In today’s fast-paced business environment, the ability to quickly adapt and make informed decisions is crucial. However, many organizations find themselves hindered by silos—barriers that separate teams, data, and systems, preventing effective collaboration and data sharing. This is particularly detrimental in the realm of Revenue Operations (RevOps), where alignment across sales, marketing, and customer success teams is essential for driving growth and optimizing revenue cycles. Enter Structured, a revolutionary platform designed to dismantle these barriers and foster seamless cross-team collaboration.',
+        imageUrl: 'images/blogs/blog2.png',
+        date: 'May 12, 2024',
+        datetime: '2024-05-12',
+        category: { title: 'Business', href: '#' },
+        author: {
+            name: 'Shivam Singhal',
+            role: 'Founder and CTO',
+            href: '#',
+            imageUrl: 'images/team/shivam.png',
+        },
+    },
+    {
+        id: 3,
+        title: '10 Ways to Use Structured for Effective Customer Segmentation',
+        href: '#',
+        description:
+            'Effective customer segmentation can transform how you approach marketing, sales, and customer service. With Structured’s advanced tools, you can segment your customers with unprecedented precision, leading to more personalized interactions and improved business outcomes. Here are 10 actionable tips to effectively leverage Structured for insightful customer segmentation.',
+        imageUrl: 'images/blogs/blog3.png',
+        date: 'May 23, 2024',
+        datetime: '2024-05-23',
+        category: { title: 'Guides', href: '#' },
+        author: {
+            name: 'Amrutha Gujjar',
+            role: 'Founder and CEO',
+            href: '#',
+            imageUrl: 'images/team/amrutha.png',
+        },
+    },
+    {
+        id: 4,
+        title: 'Next-Level Data Mapping Capabilities Coming Soon to Structured',
+        href: '#',
+        description:
+            'In the continuously evolving landscape of data management, staying ahead of the curve is not just an advantage; it\'s a necessity. Structured is set to redefine the standards once again with the introduction of its next-level data mapping capabilities. This upcoming feature is designed to enhance how businesses visualize, understand, and manipulate their data relationships, ensuring a seamless and intuitive experience. Here\'s what to expect and how it can transform your data management strategy.',
+        imageUrl: 'images/blogs/blog4.png',
+        date: 'May 12, 2024',
+        datetime: '2024-05-12',
+        category: { title: 'Tools', href: '#' },
+        author: {
+            name: 'Shivam Singhal',
+            role: 'Founder and CTO',
+            href: '#',
+            imageUrl: 'images/team/shivam.png',
+        },
     },
     // More posts...
-  ]
+];
   
   export default function Blog() {
     return (

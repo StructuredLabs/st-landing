@@ -22,8 +22,18 @@ const navigation = [
 ]
 
 const products = [
-  { name: 'Blog', description: 'Ad anim eiusmod veniam amet aliquip nostrud veniam dolore esse fugiat duis.', href: '/blog', icon: TbLogs },
-  { name: 'Podcasts', description: 'Voluptate dolor ullamco duis cillum ea nulla nulla Lorem eiusmod elit sunt pariatur ex do.', href: '/podcast', icon: MdOutlinePodcasts },
+  {
+    name: 'Blog',
+    description: 'Check out our blog for cool articles, fresh ideas, and the latest news.',
+    href: '/blog',
+    icon: TbLogs
+  },
+  {
+    name: 'Podcasts',
+    description: 'Tune into our podcasts for fun chats, expert interviews, and deep dives into various topics.',
+    href: '/podcast',
+    icon: MdOutlinePodcasts
+  }
 ]
 
 export default function Example() {
