@@ -4,7 +4,7 @@ import { AiFillSlackCircle } from "react-icons/ai";
 const navigation = {
   company: [
     { name: 'Home', href: '/' },
-    { name: 'Use Cases', href: '/usecases' },
+    { name: 'Features', href: '/features' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'Contact', href: '/contact' },
     { name: 'Docs', href: 'https://docs.structuredlabs.com' },
@@ -84,7 +84,7 @@ export default function Footer() {
               className="h-7"
             />
             <p className="text-sm leading-6 text-gray-600">
-              Making the world a better place through constructing elegant hierarchies.
+              Made with&nbsp; ❤️ &nbsp;in San Francisco, CA.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (

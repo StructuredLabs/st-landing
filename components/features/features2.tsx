@@ -1,24 +1,21 @@
-import { ArrowPathIcon, CloudArrowUpIcon, LockClosedIcon } from '@heroicons/react/20/solid'
+import { ArrowPathIcon, ClockIcon, TicketIcon } from '@heroicons/react/20/solid'
 
 const features = [
   {
-    name: 'Push to deploy',
-    description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+    name: 'Real-time alerts.',
+    description: 'Get alerted immediately via Slack or email if key metrics are at risk, allowing for timely interventions.',
     href: '#',
-    icon: CloudArrowUpIcon,
+    icon: ClockIcon,
   },
   {
-    name: 'SSL certificates',
-    description:
-      'Pellentesque enim a commodo malesuada turpis eleifend risus. Facilisis donec placerat sapien consequat tempor fermentum nibh.',
+    name: 'Easy data request tickets.',
+    description: 'Keep everyone aligned on data requests and statuses with an integrated ticketing system.',
     href: '#',
-    icon: LockClosedIcon,
+    icon: TicketIcon,
   },
   {
-    name: 'Simple queues',
-    description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+    name: 'Audit logs over time.',
+    description: 'Track and review audit logs of different accounts and leads over time to finding unexpected patterns.',
     href: '#',
     icon: ArrowPathIcon,
   },
@@ -29,13 +26,12 @@ export default function Features2() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-blue-600">Deploy faster</h2>
+          <h2 className="text-base font-semibold leading-7 text-blue-600">Built for simplicity</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Everything you need to deploy your app
+            Say goodbye to excel gymnastics
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+            Purpose-built with your team in mind: no more juggling between different products to get the insights you need to run your business.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

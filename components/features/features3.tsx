@@ -1,19 +1,20 @@
+import { Cog6ToothIcon, CheckCircleIcon, ArrowsRightLeftIcon } from '@heroicons/react/24/outline';
+
 const incentives = [
     {
-        name: 'Free shipping',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
-        description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+        name: 'Slice and dice your data',
+        icon: Cog6ToothIcon,
+        description: "Marry your custom workflows and automations with our platform for maximum reliability and robustness.",
     },
     {
-        name: '10-year warranty',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
-        description: "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+        name: 'Answer one-off questions easily',
+        icon: CheckCircleIcon,
+        description: "No more waiting two weeks or hunting down four different teams to get an answer to a question you need an immediate answer to.",
     },
     {
-        name: 'Exchanges',
-        imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
-        description:
-            "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
+        name: 'Build a data glossary',
+        icon: ArrowsRightLeftIcon,
+        description: "Create a comprehensive glossary of revenue-related terms that is thorough and easy enough for your whole team to understand."
     },
 ]
 
@@ -25,18 +26,16 @@ export default function Features3() {
                     <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
                         <div>
                             <h2 className="text-4xl font-bold tracking-tight text-gray-900">
-                                We built our business on great customer service
+                                From Seeing Everything to Knowing Exactly What Matters
                             </h2>
                             <p className="mt-4 text-gray-500">
-                                At the beginning at least, but then we realized we could make a lot more money if we kinda stopped
-                                caring about that. Our new strategy is to write a bunch of things that look really good in the
-                                headlines, then clarify in the small print but hope people don't actually read it.
+                                Structured isn't about data, it's about unlocking the collective genius of your organization. We bridge information silos, empowering every individual to contribute their unique perspective to a unified vision of growth.
                             </p>
                         </div>
                         <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                             <img
                                 alt=""
-                                src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg"
+                                src="images/glossary.png"
                                 className="object-cover object-center"
                             />
                         </div>
@@ -45,7 +44,7 @@ export default function Features3() {
                         {incentives.map((incentive) => (
                             <div key={incentive.name} className="sm:flex lg:block">
                                 <div className="sm:flex-shrink-0">
-                                    <img alt="" src={incentive.imageSrc} className="h-16 w-16" />
+                                    <incentive.icon className="h-16 w-16 text-gray-500" />
                                 </div>
                                 <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
                                     <h3 className="text-sm font-medium text-gray-900">{incentive.name}</h3>

@@ -1,7 +1,7 @@
 import Pricing from "@/components/pricing"
 
 export const metadata = {
-  title: 'Use Cases - Structured',
+  title: 'Pricing - Structured',
   description: 'Page description',
 }
 

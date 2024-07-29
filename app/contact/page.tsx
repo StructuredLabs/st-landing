@@ -1,5 +1,4 @@
 import ContactForm from "@/components/contact/contact"
-import FAQ from "@/components/contact/faq"
 
 export const metadata = {
   title: 'FAQ - Structured',
@@ -10,7 +9,6 @@ export default function Page() {
   return (
     <>
       <ContactForm />
-      <FAQ />
     </>
   )
 }

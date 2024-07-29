@@ -16,7 +16,7 @@ import { TbLogs } from "react-icons/tb"
 import { MdOutlinePodcasts } from "react-icons/md"
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Use-Cases', href: '/usecases' },
+  { name: 'Features', href: '/features' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Docs', href: 'https://docs.structuredlabs.com' },
 ]
