@@ -27,13 +27,13 @@ const pricing = {
       description: 'Daily tracking of your most important business metrics',
       audience: 'For individuals and small teams',
       features: [
-            '3 Data Sources',
-            '5 Users',
-            'Daily Data Refresh',
-            '12 months of historical data',
-            'Team sharing and collaboration features',
-            'Community Support',
-        ],      
+        '3 Data Sources',
+        '5 Users',
+        'Daily Data Refresh',
+        '12 months of historical data',
+        'Team sharing and collaboration features',
+        'Community Support',
+      ],
       mostPopular: false,
       buttonText: 'Get started',
     },
@@ -45,16 +45,16 @@ const pricing = {
       description: 'More data. More metrics. Fresh everyday',
       audience: 'For mid-size businesses',
       features: [
-            '10 Data Sources',
-            '20 Users',
-            'Daily Data Refresh',
-            '18 months of historical data',
-            'Team sharing and collaboration features',
-            'Basic Monitoring and Alerting',
-            'Community Support',
-        ],      
+        '10 Data Sources',
+        '20 Users',
+        'Daily Data Refresh',
+        '18 months of historical data',
+        'Team sharing and collaboration features',
+        'Basic Monitoring and Alerting',
+        'Community Support',
+      ],
       mostPopular: false,
-      buttonText: 'Get started',
+      buttonText: 'Buy Plan',
     },
     {
       name: 'Growth',
@@ -68,9 +68,10 @@ const pricing = {
         '50 Users',
         'Hourly Data Refresh',
         '24 months of historical data',
+        'Team sharing and collaboration features',
         'Basic Monitoring and Alerting',
         'Slack Support',
-      ],      
+      ],
       mostPopular: true,
       buttonText: 'Buy plan',
     },
@@ -187,7 +188,7 @@ export default function Pricing() {
                 key={tier.id}
                 className={classNames(
                   tier.mostPopular ? 'ring-2 ring-blue-600' : 'ring-1 ring-gray-200',
-                  'rounded-3xl p-8',
+                  'rounded-3xl p-8 flex flex-col h-full',
                 )}
               >
                 <h2
@@ -202,9 +203,9 @@ export default function Pricing() {
                 <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
                 <p className="mt-4 text-sm leading-6 text-gray-600 font-bold">{tier.audience}</p>
                 <p className="mt-6 flex items-baseline gap-x-1">
-                    {/* @ts-ignore */}
+                  {/* @ts-ignore */}
                   <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
-                  {tier.name === 'Growth' && (
+                  {(tier.name === 'Pro' || tier.name === 'Growth') && (
                     <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
                   )}
                 </p>
@@ -228,6 +229,11 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
+                {tier.name === 'Growth' && (
+                  <p className="mt-auto pt-6 text-sm font-semibold leading-6 text-blue-600 text-center">
+                    Our most popular plan!
+                  </p>
+                )}
               </div>
             ))}
           </div>
