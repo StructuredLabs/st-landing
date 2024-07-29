@@ -4,19 +4,19 @@ const features = [
   {
     name: 'Real-time alerts.',
     description: 'Get alerted immediately via Slack or email if key metrics are at risk, allowing for timely interventions.',
-    href: '#',
+    href: 'https://docs.structuredlabs.com/',
     icon: ClockIcon,
   },
   {
     name: 'Easy data request tickets.',
     description: 'Keep everyone aligned on data requests and statuses with an integrated ticketing system.',
-    href: '#',
+    href: 'https://docs.structuredlabs.com/',
     icon: TicketIcon,
   },
   {
     name: 'Audit logs over time.',
     description: 'Track and review audit logs of different accounts and leads over time to finding unexpected patterns.',
-    href: '#',
+    href: 'https://docs.structuredlabs.com/',
     icon: ArrowPathIcon,
   },
 ]

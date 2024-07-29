@@ -32,7 +32,7 @@ export default function Hero() {
                 >
                   Get started
                 </a>
-                <a href="https://docs.structuredlabs.com/intro" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">
+                <a href="https://docs.structuredlabs.com" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>

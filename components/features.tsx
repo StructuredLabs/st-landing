@@ -5,21 +5,21 @@ const features = [
     name: 'Single source of truth',
     description:
       'Centralize all of your business data, ensuring everyone in your organization accesses the consistent, accurate, and up-to-date information.',
-    href: '#',
+    href: 'https://docs.structuredlabs.com/',
     icon: ServerIcon,
   },
   {
     name: 'One-click metrics',
     description:
       'Generate key business metrics with a single click, making it easy to track performance and make data-driven decisions.',
-    href: '#',
+    href: 'https://docs.structuredlabs.com/',
     icon: ChartBarIcon,
   },
   {
     name: 'Fine-grained tracking',
     description:
       'Monitor your systems and manage tickets in the same place, enabling lightning-fast issue resolution.',
-    href: '#',
+    href: 'https://docs.structuredlabs.com/',
     icon: TicketIcon,
   },
 ]
