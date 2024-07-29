@@ -27,13 +27,6 @@ export default function CTA() {
                 Subscribe
               </button>
             </div>
-            <p className="mt-4 text-sm leading-6 text-gray-900">
-              We care about your data. Read our{' '}
-              <a href="#" className="font-semibold text-blue-600 hover:text-blue-500">
-                privacy&nbsp;policy
-              </a>
-              .
-            </p>
           </form>
         </div>
       </div>

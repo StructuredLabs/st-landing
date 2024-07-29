@@ -1,42 +1,42 @@
 import {
-    ArrowPathIcon,
-    CloudArrowUpIcon,
-    Cog6ToothIcon,
-    FingerPrintIcon,
-    LockClosedIcon,
-    ServerIcon,
+    ShareIcon,
+    ChartBarIcon,
+    PresentationChartLineIcon,
+    BellAlertIcon,
+    QuestionMarkCircleIcon,
+    CpuChipIcon,
 } from '@heroicons/react/20/solid'
 
 const features = [
     {
-        name: 'Push to deploy.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-        icon: CloudArrowUpIcon,
+        name: 'Connect in a snap.',
+        description: 'Easily connect to several data sources in minutes with our pre-built connectors.',
+        icon: ShareIcon,
     },
     {
-        name: 'SSL certificates.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-        icon: LockClosedIcon,
+        name: 'Metrics wonderland.',
+        description: 'Explore our treasure chest of pre-built metrics to track your success.',
+        icon: ChartBarIcon,
     },
     {
-        name: 'Simple queues.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
-        icon: ArrowPathIcon,
+        name: 'Share the knowledge.',
+        description: 'Effortlessly share dashboards and collaborate with your team.',
+        icon: PresentationChartLineIcon,
     },
     {
-        name: 'Advanced security.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
-        icon: FingerPrintIcon,
+        name: 'Alert me now.',
+        description: 'Get instant alerts for data changes so you are never caught off guard.',
+        icon: BellAlertIcon,
     },
     {
-        name: 'Powerful API.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
-        icon: Cog6ToothIcon,
+        name: 'Ask and you shall receive.',
+        description: 'Type your questions in plain English and get the answers, pronto.',
+        icon: QuestionMarkCircleIcon,
     },
     {
-        name: 'Database backups.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. ',
-        icon: ServerIcon,
+        name: 'AI Onboarding.',
+        description: 'Let our AI assistant guide you through setup like a pro.',
+        icon: CpuChipIcon,
     },
 ]
 
@@ -46,10 +46,9 @@ export default function Features2() {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
                     <h2 className="text-base font-semibold leading-7 text-blue-600">Everything you need</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">No server? No problem.</p>
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Access hundreds of pre-built metrics</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
-                        dolor cupiditate blanditiis.
+                        Use our comprehensive metrics library of pre-defined metrics to instanstly track performance and identify growth opportunities.
                     </p>
                 </div>
             </div>

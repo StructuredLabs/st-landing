@@ -1,26 +1,26 @@
-import { InboxIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
+import { ServerIcon, ChartBarIcon, TicketIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Unlimited inboxes',
+    name: 'Single source of truth of data',
     description:
-      'Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.',
+      'Centralize all your business data in one place, ensuring everyone in your organization accesses the same accurate and up-to-date information.',
     href: '#',
-    icon: InboxIcon,
+    icon: ServerIcon,
   },
   {
-    name: 'Manage team members',
+    name: 'One-click metrics',
     description:
-      'Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.',
+      'Quickly generate key business metrics with a single click, making it easy to track performance and make data-driven decisions.',
     href: '#',
-    icon: UsersIcon,
+    icon: ChartBarIcon,
   },
   {
-    name: 'Spam report',
+    name: 'Monitoring and ticketing',
     description:
-      'Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.',
+      'Monitor your systems in real-time and manage tickets efficiently, ensuring timely resolution of issues and continuous business operations.',
     href: '#',
-    icon: TrashIcon,
+    icon: TicketIcon,
   },
 ]
 
@@ -30,11 +30,11 @@ export default function Features() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Stay on top of customer support
+            Stay on top of your top KPIs
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+              Get detailed insights into your business metrics to optimize costs, improve retention, and increase profitability. Track customer engagement to fix retention issues. 
+              Monitor sales to focus on your most profitable products or services.           
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
