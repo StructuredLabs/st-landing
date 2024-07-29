@@ -38,14 +38,33 @@ const pricing = {
       buttonText: 'Get started',
     },
     {
+      name: 'Pro',
+      id: 'tier-pro',
+      href: 'https://app.structuredlabs.com/settings/account',
+      price: { monthly: '$300', annually: '$2880' },
+      description: 'More data. More metrics. Fresh everyday',
+      audience: 'For mid-size businesses',
+      features: [
+            '10 Data Sources',
+            '20 Users',
+            'Daily Data Refresh',
+            '18 months of historical data',
+            'Team sharing and collaboration features',
+            'Basic Monitoring and Alerting',
+            'Community Support',
+        ],      
+      mostPopular: false,
+      buttonText: 'Get started',
+    },
+    {
       name: 'Growth',
       id: 'tier-growth',
       href: 'https://app.structuredlabs.com/settings/account',
       price: { monthly: '$800', annually: '$7680' },
-      description: 'AI-powered tracking and analytics for managing serious growth',
+      description: 'AI-powered tracking and analytics for serious growth',
       audience: 'For high-growth businesses',
       features: [
-        '10 Data Sources',
+        '20 Data Sources',
         '50 Users',
         'Hourly Data Refresh',
         '24 months of historical data',
@@ -162,7 +181,7 @@ export default function Pricing() {
               </RadioGroup>
             </fieldset>
           </div>
-          <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-3">
+          <div className="isolate mx-auto mt-10 grid max-w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:mx-0">
             {pricing.tiers.map((tier) => (
               <div
                 key={tier.id}
