@@ -2,23 +2,23 @@ import { ServerIcon, ChartBarIcon, TicketIcon } from '@heroicons/react/24/outlin
 
 const features = [
   {
-    name: 'Single source of truth of data',
+    name: 'Single source of truth',
     description:
-      'Centralize all your business data in one place, ensuring everyone in your organization accesses the same accurate and up-to-date information.',
+      'Centralize all of your business data, ensuring everyone in your organization accesses the consistent, accurate, and up-to-date information.',
     href: '#',
     icon: ServerIcon,
   },
   {
     name: 'One-click metrics',
     description:
-      'Quickly generate key business metrics with a single click, making it easy to track performance and make data-driven decisions.',
+      'Generate key business metrics with a single click, making it easy to track performance and make data-driven decisions.',
     href: '#',
     icon: ChartBarIcon,
   },
   {
-    name: 'Monitoring and ticketing',
+    name: 'Fine-grained tracking',
     description:
-      'Monitor your systems in real-time and manage tickets efficiently, ensuring timely resolution of issues and continuous business operations.',
+      'Monitor your systems and manage tickets in the same place, enabling lightning-fast issue resolution.',
     href: '#',
     icon: TicketIcon,
   },
@@ -33,7 +33,7 @@ export default function Features() {
             Stay on top of your top KPIs
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-              Get detailed insights into your business metrics to optimize costs, improve retention, and increase profitability. Track customer engagement to fix retention issues. 
+              Drill-down into business metrics. Track customer engagement to fix retention issues. 
               Monitor sales to focus on your most profitable products or services.           
           </p>
         </div>

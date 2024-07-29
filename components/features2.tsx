@@ -10,7 +10,7 @@ import {
 const features = [
     {
         name: 'Connect in a snap.',
-        description: 'Easily connect to several data sources in minutes with our pre-built connectors.',
+        description: 'Integrate with several data sources in minutes with our pre-built connectors.',
         icon: ShareIcon,
     },
     {
@@ -48,7 +48,7 @@ export default function Features2() {
                     <h2 className="text-base font-semibold leading-7 text-blue-600">Everything you need</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Access hundreds of pre-built metrics</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Use our comprehensive metrics library of pre-defined metrics to instanstly track performance and identify growth opportunities.
+                        Use our comprehensive metrics library to instantly track performance and identify growth opportunities.
                     </p>
                 </div>
             </div>

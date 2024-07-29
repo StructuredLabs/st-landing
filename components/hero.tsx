@@ -33,7 +33,7 @@ export default function Hero() {
                 Automatically compute financial metrics for your business
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Compute CAC-LTV, churn rate, sales pipeline, gross margin, and more. Instantly access detailed insights to optimize costs, improve retention, and increase profitability.
+                Calculate CAC-LTV, churn rate, sales pipeline, gross margin, and more. Instantly access detailed insights to optimize costs, improve retention, and increase profitability.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a

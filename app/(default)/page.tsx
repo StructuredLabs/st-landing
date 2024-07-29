@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Features2 />
-      <Blog />
+      {/* <Blog /> TODO: add back in when blog content is ready*/}
       <CTA />
     </>
   )
