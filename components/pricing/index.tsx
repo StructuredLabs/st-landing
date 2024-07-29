@@ -90,11 +90,11 @@ const faqs = [
   },
   {
     question: "What happens to my data if I downgrade or cancel my plan?",
-    answer: "If you downgrade or cancel, your data remains safe. However, access to certain features and the amount of historical data may be limited based on your new plan. You can always upgrade again to regain full access."
+    answer: "Even if you downgrade or cancel, your data remains secure. However, access to certain features and the amount of historical data may be limited based on your new plan. You can always upgrade again to regain full access."
   },
   {
     question: "How does billing work for the paid plans?",
-    answer: "Billing is straightforward. You can choose between monthly or annual billing cycles. Annual plans offer a discount compared to monthly payments. You can update your billing preferences at any time."
+    answer: "You choose between monthly or annual billing cycles. Annual plans offer a discount compared to monthly payments. You can update your billing preferences at any time."
   },
   {
     question: "What kind of support can I expect?",
