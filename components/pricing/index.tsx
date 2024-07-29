@@ -24,7 +24,8 @@ const pricing = {
       id: 'tier-free',
       href: 'https://app.structuredlabs.com/',
       price: { monthly: '$0', annually: '$0' },
-      description: 'Basic tracking of your business health metrics for small teams.',
+      description: 'Daily tracking of your most important business metrics',
+      audience: 'For individuals and small teams',
       features: [
             '3 Data Sources',
             '5 Users',
@@ -40,8 +41,9 @@ const pricing = {
       name: 'Growth',
       id: 'tier-growth',
       href: 'https://app.structuredlabs.com/settings/account',
-      price: { monthly: '$870', annually: '$8352' },
-      description: 'Advanced tracking and analytics for growing businesses.',
+      price: { monthly: '$800', annually: '$7680' },
+      description: 'AI-powered tracking and analytics for managing serious growth',
+      audience: 'For high-growth businesses',
       features: [
         '10 Data Sources',
         '50 Users',
@@ -59,6 +61,7 @@ const pricing = {
       href: 'https://cal.com/structured/30min',
       price: { monthly: 'Custom', annually: 'Custom' },
       description: 'A plan that scales with your rapidly growing business.',
+      audience: 'For larger companies',
       features: [
         'Unlimited Data Sources',
         'Unlimited Users',
@@ -178,6 +181,7 @@ export default function Pricing() {
                   {tier.name}
                 </h2>
                 <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
+                <p className="mt-4 text-sm leading-6 text-gray-600 font-bold">{tier.audience}</p>
                 <p className="mt-6 flex items-baseline gap-x-1">
                     {/* @ts-ignore */}
                   <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
