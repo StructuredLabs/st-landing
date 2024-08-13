@@ -1,22 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon, PuzzlePieceIcon } from '@heroicons/react/20/solid'
-
-const features = [
-  {
-    name: 'Real-time data sync.',
-    description: 'Make sure your financial metrics are always up-to-date. Easily sync data from multiple sources in real-time.',
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: 'Daily themes and summaries.',
-    description: 'Receive daily summaries of key financial metrics and themes across your entire company, directly in your inbox.',
-    icon: PuzzlePieceIcon,
-  },
-  {
-    name: 'Data security and compliance.',
-    description: 'Your data is secure with advanced security measures, protecting sensitive financial information.',
-    icon: LockClosedIcon,
-  },
-]
+import { featuresPageSection1, featuresPageSectionTag, featuresPageSectionTitle, featuresPageSectionSubtitle } from '../pageContent'
 
 export default function Features1() {
   return (
@@ -25,13 +7,13 @@ export default function Features1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-blue-600">One-click setup</h2>
-              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A better workflow</p>
+              <h2 className="text-base font-semibold leading-7 text-blue-600">{featuresPageSectionTag}</h2>
+              <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{featuresPageSectionTitle}</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Improve KPI tracking with Structured. Effortlessly unify data sources, streamline analysis, and automate insights for better GTM efficiency and profitability.
+                {featuresPageSectionSubtitle}
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {features.map((feature) => (
+                {featuresPageSection1.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <feature.icon aria-hidden="true" className="absolute left-1 top-1 h-5 w-5 text-blue-600" />
