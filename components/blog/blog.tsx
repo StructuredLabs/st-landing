@@ -1,91 +1,91 @@
 import { lazy } from "react";
-const TenWaysToUseStructuredBlog = lazy(
-  () => import("./blogs/TenWaysToUseStructuredBlog"),
+
+const Blog1 = lazy(
+  () => import("./blogs/Blog1"),
 );
-const NextLevelDataMapping = lazy(
-  () => import("./blogs/NextLevelDataMapping"),
+const Blog2 = lazy(
+  () => import("./blogs/Blog2"),
 );
-const TeamCollaborationBlog = lazy(
-  () => import("./blogs/TeamCollaborationBlog"),
+const Blog3 = lazy(
+  () => import("./blogs/Blog3"),
 );
-const BreakingDownSilos = lazy(
-  () => import("./blogs/BreakingDownSilos"),
+const Blog4 = lazy(
+  () => import("./blogs/Blog4"),
 );
 
 export const posts = [
   {
     id: 1,
-    title: `Boosting Team Collaboration with Structured's New Slack Integration`,
+    title: `The Power of Consistent Metrics for Growing SaaS Companies`,
     href: '#',
     description:
-      `Effective collaboration and timely access to data are crucial for any team striving for success. Structured's new Slack integration bridges the gap between data insights and team communication, enabling real-time notifications, data queries, and seamless sharing of insights within Slack channels. In this blog post, we'll explore a detailed use case scenario demonstrating how a marketing team can leverage Structured's Slack integration to enhance their workflow and achieve better results.`,
+      `Growing a SaaS business is challenging enough without having to deal with inconsistent metrics. This post dives into how Structured helps ensure everyone in your company is on the same page with metrics like CAC and MRR, making growth smoother and more predictable.`,
     imageUrl: 'images/blogs/blog1.png',
     date: 'June 6, 2024',
     datetime: '2024-06-06',
-    category: { title: 'Technology', href: '#' },
+    category: { title: 'Business Strategy', href: '#' },
     author: {
       name: 'Amrutha Gujjar',
       role: 'Founder and CEO',
       href: '#',
       imageUrl: 'images/team/amrutha.png',
     },
-    component: TeamCollaborationBlog
+    component: Blog1,
   },
   {
     id: 2,
-    title: 'Breaking Down Silos: Structured\'s Role in Fostering Cross-Team Collaboration in Revenue Operations',
+    title: 'Why Misaligned Metrics Are Costing You More Than You Think',
     href: '#',
     description:
-      `In today's fast-paced business environment, the ability to quickly adapt and make informed decisions is crucial. However, many organizations find themselves hindered by silos—barriers that separate teams, data, and systems, preventing effective collaboration and data sharing. This is particularly detrimental in the realm of Revenue Operations (RevOps), where alignment across sales, marketing, and customer success teams is essential for driving growth and optimizing revenue cycles. Enter Structured, a revolutionary platform designed to dismantle these barriers and foster seamless cross-team collaboration.`,
+      `Misaligned metrics can be a silent killer for your business. This article explores the real costs of metric misalignment and how Structured can help fix the problem by keeping everyone in sync with accurate, reliable data.`,
     imageUrl: 'images/blogs/blog2.png',
     date: 'May 12, 2024',
     datetime: '2024-05-12',
-    category: { title: 'Business', href: '#' },
+    category: { title: 'Operational Efficiency', href: '#' },
     author: {
       name: 'Shivam Singhal',
       role: 'Founder and CTO',
       href: '#',
       imageUrl: 'images/team/shivam.png',
     },
-    component: BreakingDownSilos
+    component: Blog2,
   },
   {
     id: 3,
-    title: '10 Ways to Use Structured for Effective Customer Segmentation',
+    title: 'How Structured Keeps Your CAC and MRR on Track',
     href: '#',
     description:
-      `Effective customer segmentation can transform how you approach marketing, sales, and customer service. With Structured's advanced tools, you can segment your customers with unprecedented precision, leading to more personalized interactions and improved business outcomes. Here are 10 actionable tips to effectively leverage Structured for insightful customer segmentation.`,
+      `If different teams in your company are using different definitions for key metrics like CAC and MRR, it can lead to a lot of confusion. Find out how Structured helps standardize these metrics across your organization so you can make decisions with confidence.`,
     imageUrl: 'images/blogs/blog3.png',
     date: 'May 23, 2024',
     datetime: '2024-05-23',
-    category: { title: 'Guides', href: '#' },
+    category: { title: 'Revenue Optimization', href: '#' },
     author: {
       name: 'Amrutha Gujjar',
       role: 'Founder and CEO',
       href: '#',
       imageUrl: 'images/team/amrutha.png',
     },
-    component: TenWaysToUseStructuredBlog
+    component: Blog3,
   },
   {
     id: 4,
-    title: 'Next-Level Data Mapping Capabilities Coming Soon to Structured',
+    title: 'Turning Data into Decisions: How Structured Simplifies Your Metrics',
     href: '#',
     description:
-      'In the continuously evolving landscape of data management, staying ahead of the curve is not just an advantage; it\'s a necessity. Structured is set to redefine the standards once again with the introduction of its next-level data mapping capabilities. This upcoming feature is designed to enhance how businesses visualize, understand, and manipulate their data relationships, ensuring a seamless and intuitive experience. Here\'s what to expect and how it can transform your data management strategy.',
+      `Data is only as good as the decisions it informs. This post covers how Structured takes the complexity out of managing business metrics, turning your data into actionable insights that drive growth.`,
     imageUrl: 'images/blogs/blog4.png',
     date: 'May 12, 2024',
     datetime: '2024-05-12',
-    category: { title: 'Tools', href: '#' },
+    category: { title: 'Data Strategy', href: '#' },
     author: {
       name: 'Shivam Singhal',
       role: 'Founder and CTO',
       href: '#',
       imageUrl: 'images/team/shivam.png',
     },
-    component: NextLevelDataMapping
+    component: Blog4,
   },
-  // More posts...
 ];
 
 export default function Blog() {
