@@ -1,4 +1,4 @@
-import { featuresPageSection3, featuresPageSection3Title, featuresPageSection3Subtitle  } from '../pageContent';
+import { featuresPageSection3, featuresPageSection3Title, featuresPageSection3Subtitle, featuresPageSection3ImgUrl } from '../pageContent';
 
 export default function Features3() {
     return (
@@ -17,7 +17,7 @@ export default function Features3() {
                         <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                             <img
                                 alt=""
-                                src="images/glossary.png"
+                                src={featuresPageSection3ImgUrl}
                                 className="object-cover object-center"
                             />
                         </div>
