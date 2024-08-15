@@ -1,4 +1,4 @@
-import { features2, features2SectionSubtitle, features2SectionTag, features2SectionTitle } from "./pageContent"
+import {features2, features2SectionSubtitle, features2SectionTag, features2SectionTitle, features2SectionImageUrl } from "./pageContent";
 
 export default function Features2() {
     return (
@@ -16,7 +16,7 @@ export default function Features2() {
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <img
                         alt="App screenshot"
-                        src="images/query.png"
+                        src={features2SectionImageUrl}
                         width={2432}
                         height={1442}
                         className="mb-[-12%] rounded-xl shadow-2xl ring-1 ring-gray-900/10"

@@ -25,7 +25,7 @@ export const heroPageTitle = "Semantic layer for reliable business metrics";
 export const heroPageSubtitle =
   "Define, manage, and scale your critical metrics seamlessly. Eliminate discrepancies and empower data-driven decisions.";
 
-export const heroPageImageUrl = "images/hero.png";
+export const heroPageImageUrl = "images/glossary.png";
 export const featuresHomePageTitle = "Achieve Metric Consistency Across Teams";
 export const featuresHomePageSubtitle =
   "Unify definitions of key metrics like Revenue, CAC, and MRR. Ensure every department speaks the same data language.";
@@ -64,7 +64,7 @@ export const features2SectionTag = "Comprehensive Tools";
 export const features2SectionTitle = "Empower Your Data Teams";
 export const features2SectionSubtitle =
   "Leverage our library of pre-built metric templates or craft custom metrics tailored to your business needs.";
-export const features2SectionImageUrl = "images/features2.png";
+export const features2SectionImageUrl = "images/metrics.png";
 export const features2 = [
   {
     name: "Seamless Connectivity",
