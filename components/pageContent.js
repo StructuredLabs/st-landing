@@ -42,6 +42,9 @@ export const featuresHomePage = [
     name: "One-Click Integration",
     description:
       "Seamlessly connect Structured to your data warehouse like Google BigQuery with just one click.",
+    name: "One-click metrics",
+    description:
+      "Generate key business metrics with a single click, making it easy to track performance and make data-driven decisions.",
     href: "https://docs.structuredlabs.com/",
     icon: ChartBarIcon,
   },
@@ -49,6 +52,9 @@ export const featuresHomePage = [
     name: "Integrated Ticketing System",
     description:
       "Manage data requests and discrepancies efficiently within the platform, streamlining collaboration.",
+    name: "Fine-grained tracking",
+    description:
+      "Monitor your systems and manage tickets in the same place, enabling lightning-fast issue resolution.",
     href: "https://docs.structuredlabs.com/",
     icon: TicketIcon,
   },
