@@ -1,5 +1,4 @@
 import {
-  ServerIcon,
   ChartBarIcon,
   TicketIcon,
   ShareIcon,
@@ -15,38 +14,36 @@ import {
   Cog6ToothIcon,
   CheckCircleIcon,
   ArrowsRightLeftIcon,
+  BookOpenIcon,
 } from "@heroicons/react/24/outline";
 
 // ---------------
 // Home Page
 // ---------------
 
-export const heroPageTitle = "Semantic layer for reliable business metrics";
+export const heroPageTitle = "Single Source of Truth for Business Metrics";
 export const heroPageSubtitle =
   "Define, manage, and scale your critical metrics seamlessly. Eliminate discrepancies and empower data-driven decisions.";
 
 export const heroPageImageUrl = "images/glossary.png";
-export const featuresHomePageTitle = "Achieve Metric Consistency Across Teams";
+export const featuresHomePageTitle = "Achieve Consistency Across Teams";
 export const featuresHomePageSubtitle =
   "Unify definitions of key metrics like Revenue, CAC, and MRR. Ensure every department speaks the same data language.";
 
 export const featuresHomePage = [
   {
-    name: "Single Source of Truth",
+    name: "Canonical Definitions",
     description:
       "Centralize all metric definitions, ensuring every team accesses consistent and accurate data.",
     href: "https://docs.structuredlabs.com/",
-    icon: ServerIcon,
+    icon: BookOpenIcon,
   },
   {
-    name: "One-Click Integration",
+    name: "Proactive Alerts",
     description:
-      "Seamlessly connect Structured to your data warehouse like Google BigQuery with just one click.",
-    name: "One-click metrics",
-    description:
-      "Generate key business metrics with a single click, making it easy to track performance and make data-driven decisions.",
+      "Receive instant notifications on metric anomalies to address issues promptly.",
     href: "https://docs.structuredlabs.com/",
-    icon: ChartBarIcon,
+    icon: BellAlertIcon,
   },
   {
     name: "Integrated Ticketing System",
@@ -247,28 +244,28 @@ export const pricing = {
         "Integrated Ticketing System",
         "Email Support",
       ],
-      mostPopular: false,
+      mostPopular: true,
       buttonText: "Buy Plan",
     },
-    {
-      name: "Growth",
-      id: "tier-growth",
-      href: "https://app.structuredlabs.com/settings/account",
-      price: { monthly: "$800", annually: "$7680" },
-      description: "AI-powered tracking and analytics for serious growth",
-      audience: "For high-growth businesses",
-      features: [
-        "20 Data Sources",
-        "50 Users",
-        "Hourly Data Refresh",
-        "24 months of historical data",
-        "Team sharing and collaboration features",
-        "Basic Monitoring and Alerting",
-        "Slack Support",
-      ],
-      mostPopular: true,
-      buttonText: "Buy plan",
-    },
+    // {
+    //   name: "Growth",
+    //   id: "tier-growth",
+    //   href: "https://app.structuredlabs.com/settings/account",
+    //   price: { monthly: "$800", annually: "$7680" },
+    //   description: "AI-powered tracking and analytics for serious growth",
+    //   audience: "For high-growth businesses",
+    //   features: [
+    //     "20 Data Sources",
+    //     "50 Users",
+    //     "Hourly Data Refresh",
+    //     "24 months of historical data",
+    //     "Team sharing and collaboration features",
+    //     "Basic Monitoring and Alerting",
+    //     "Slack Support",
+    //   ],
+    //   mostPopular: true,
+    //   buttonText: "Buy plan",
+    // },
     {
       name: "Enterprise",
       id: "tier-enterprise",
@@ -294,12 +291,12 @@ export const pricingFaqs = [
   {
     question: "How does Structured integrate with my existing data warehouse?",
     answer:
-      "Structured offers one-click integration with popular data warehouses like Google BigQuery, Snowflake, and more. Simply connect your data source, and Structured will sync your data seamlessly.",
+      "Structured offers one-click integration with popular data warehouses like Google BigQuery, Snowflake, and more. Simply connect your data source and DBT project!",
   },
   {
     question: "Can I customize metric definitions?",
     answer:
-      "Absolutely. While Structured provides a library of pre-built metric templates, you can also create and customize metrics to align perfectly with your business needs.",
+      "Absolutely. You can create and customize metrics to align perfectly with your business needs.",
   },
   {
     question: "How does the ticketing system work?",
@@ -309,7 +306,7 @@ export const pricingFaqs = [
   {
     question: "Is my data secure with Structured?",
     answer:
-      "Yes. We prioritize data security with advanced encryption, regular audits, and compliance with industry standards to ensure your data remains protected.",
+      "Yes. We prioritize data security with advanced encryption, regular audits, and compliance with industry-leading standards to ensure your data remains protected.",
   },
   {
     question: "What kind of support can I expect?",

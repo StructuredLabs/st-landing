@@ -54,7 +54,7 @@ export default function Pricing() {
               </RadioGroup>
             </fieldset>
           </div>
-          <div className="isolate mx-auto mt-10 grid max-w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:mx-0">
+          <div className="isolate mx-auto mt-10 grid max-w-full grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:mx-0">
             {pricing.tiers.map((tier) => (
               <div
                 key={tier.id}
@@ -77,7 +77,7 @@ export default function Pricing() {
                 <p className="mt-6 flex items-baseline gap-x-1">
                   {/* @ts-ignore */}
                   <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
-                  {(tier.name === 'Pro' || tier.name === 'Growth') && (
+                  {(tier.name === 'Professional' || tier.name === 'Growth') && (
                     <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
                   )}
                 </p>
@@ -101,7 +101,7 @@ export default function Pricing() {
                     </li>
                   ))}
                 </ul>
-                {tier.name === 'Growth' && (
+                {tier.name === 'Professional' && (
                   <p className="mt-auto pt-6 text-sm font-semibold leading-6 text-blue-600 text-center">
                     Our most popular plan!
                   </p>
