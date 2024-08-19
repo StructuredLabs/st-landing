@@ -21,9 +21,9 @@ import {
 // Home Page
 // ---------------
 
-export const heroPageTitle = "Single Source of Truth for Business Metrics";
+export const heroPageTitle = "Simplify Data Consumption for Business Users";
 export const heroPageSubtitle =
-  "Define, manage, and scale your critical metrics seamlessly. Eliminate discrepancies and empower data-driven decisions.";
+  "Define, manage, and scale your critical metrics seamlessly. Document your Snowflake tables in Notion with one click.";
 
 export const heroPageImageUrl = "images/glossary.png";
 export const featuresHomePageTitle = "Achieve Consistency Across Teams";
@@ -66,7 +66,7 @@ export const features2 = [
   {
     name: "Seamless Connectivity",
     description:
-      "Integrate with multiple data sources effortlessly, ensuring all your data is in sync.",
+      "Integrate with Snowflake and Notion effortlessly, ensuring all your data is in sync.",
     icon: ShareIcon,
   },
   {
