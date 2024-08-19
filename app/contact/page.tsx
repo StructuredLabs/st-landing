@@ -1,7 +1,7 @@
 import ContactForm from "@/components/contact/contact"
 
 export const metadata = {
-  title: 'Contact',
+  title: 'Contact | Structured',
   description: 'Page description',
 }
 

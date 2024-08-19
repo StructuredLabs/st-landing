@@ -1,9 +1,8 @@
 import { posts } from "@/components/blog/blog"
-import BlogContent from "@/components/blog/blogcontent"
 import { redirect } from "next/navigation"
 
 export const metadata = {
-  title: 'Blog Content - Structured',
+  title: 'Blog Content | Structured',
   description: 'Page description',
 }
 
