@@ -1,7 +1,7 @@
 import Podcast from "@/components/podcast/podcast"
 
 export const metadata = {
-  title: 'Podcast - Structured',
+  title: 'Podcast | Structured',
   description: 'Page description',
 }
 
