@@ -138,6 +138,7 @@ export const featuresPageSection2Tag = "Designed for Clarity";
 export const featuresPageSection2Title = "Eliminate Data Discrepancies";
 export const featuresPageSection2Subtitle =
   "Bid farewell to conflicting reports. Structured ensures every team accesses and trusts the same metrics.";
+export const featuresPageSection2ImgUrl = "images/entity_snowflake.png";
 
 export const featuresPageSection2 = [
   {
