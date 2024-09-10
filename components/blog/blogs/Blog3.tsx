@@ -16,7 +16,7 @@ export default function Blog3({
                 title={title}
                 description={description}
             >
-                <div className="mt-10 max-w-2xl space-y-6 text-gray-700 mx-auto">
+                <div className="mt-10 max-w-3xl space-y-6 text-gray-700 mx-auto">
                     <p>
                         For any SaaS company, Customer Acquisition Cost (CAC) and Monthly Recurring Revenue (MRR) are the lifeblood metrics that drive key decisions. Keeping these metrics accurate and consistent is essential for scaling effectively, yet it’s a challenge when different teams calculate them differently.
                     </p>

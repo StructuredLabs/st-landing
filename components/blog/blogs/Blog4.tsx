@@ -16,7 +16,7 @@ export default function Blog4({
                 title={title}
                 description={description}
             >
-                <div className="mt-10 max-w-2xl space-y-6 text-gray-700 mx-auto">
+                <div className="mt-10 max-w-3xl space-y-6 text-gray-700 mx-auto">
                     <p>
                         In the fast-paced world of SaaS, data is constantly being generated from various sources. But raw data alone isn’t enough to drive your business forward. The true power of data lies in how it is transformed into actionable insights that guide decision-making. This is where Structured comes in, turning your data into decisions that propel your business to new heights.
                     </p>
