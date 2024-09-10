@@ -12,9 +12,29 @@ const Blog3 = lazy(
 const Blog4 = lazy(
   () => import("./blogs/Blog4"),
 );
+const StartupBattlefieldBlog = lazy(
+  () => import("./blogs/StartupBattlefieldBlog"),
+);
 
 export const posts = [
   {
+    id: 0,
+    title: `Structured Selected To Participate in Startup Battlefield 200 at TechCrunch Disrupt 2024`,
+    href: '#',
+    description:
+      `Structured has been selected to participate in Startup Battlefield 200 at TechCrunch Disrupt 2024. Startup Battlefield 200 is the world's preeminent startup competition. Startup Battlefield 200 will showcase the top 200 startups from around the globe, across multiple industries.`,
+    imageUrl: 'images/blogs/startup_battlefield.png',
+    date: 'September 10, 2024',
+    datetime: '2024-09-10',
+    category: { title: 'Technology', href: '#' },
+    author: {
+      name: 'Amrutha Gujjar',
+      role: 'Founder and CEO',
+      href: '#',
+      imageUrl: 'images/team/amrutha.png',
+    },
+    component: StartupBattlefieldBlog
+  }, {
     id: 1,
     title: `The Power of Consistent Metrics for Growing SaaS Companies`,
     href: '#',
