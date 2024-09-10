@@ -16,7 +16,7 @@ export default function Blog1({
                 title={title}
                 description={description}
             >
-                <div className="mt-10 max-w-2xl space-y-6 text-gray-700 mx-auto">
+                <div className="mt-10 max-w-3xl space-y-6 text-gray-700 mx-auto">
                     <p>
                         As your SaaS company scales, maintaining consistent and reliable metrics across departments becomes crucial. Metrics like Customer Acquisition Cost (CAC) and Monthly Recurring Revenue (MRR) are central to decision-making, but when different teams define and calculate these metrics differently, it can lead to confusion and misaligned strategies.
                     </p>

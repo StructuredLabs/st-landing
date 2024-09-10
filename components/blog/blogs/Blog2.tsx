@@ -16,7 +16,7 @@ export default function Blog2({
                 title={title}
                 description={description}
             >
-                <div className="mt-10 max-w-2xl space-y-6 text-gray-700 mx-auto">
+                <div className="mt-10 max-w-3xl space-y-6 text-gray-700 mx-auto">
                     <p>
                         In today's data-driven world, having access to vast amounts of information is not enough. The true value lies in transforming that data into actionable insights that drive business decisions. This is where Structured steps in, simplifying the process of converting raw data into clear, reliable metrics that guide your strategic decisions.
                     </p>
