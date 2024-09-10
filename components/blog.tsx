@@ -22,7 +22,7 @@ export default function Blog() {
                                 <img
                                     alt=""
                                     src={post.imageUrl}
-                                    className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                                    className={`w-full rounded-2xl aspect-[16/9] sm:aspect-[2/1] lg:aspect-[3/2] ${post.id === 0 ? 'object-contain bg-black' : 'object-cover bg-gray-100'}`}
                                 />
                                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                             </div>
