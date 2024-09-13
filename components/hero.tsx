@@ -26,20 +26,31 @@ export default function Hero() {
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {heroPageSubtitle}
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
+              <div className="mt-10 flex flex-col items-center justify-center">
+              <div className="flex items-center justify-center gap-x-6">
                 <a
                   href="https://app.structuredlabs.com/"
-                  target='_blank'
+                  target="_blank"
                   className="rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
                 >
                   Get started
                 </a>
-                <a href="https://docs.structuredlabs.com" target='_blank' className="text-sm font-semibold leading-6 text-gray-900">
+                <a
+                  href="https://docs.structuredlabs.com"
+                  target="_blank"
+                  className="text-sm font-semibold leading-6 text-gray-900"
+                >
                   Learn more <span aria-hidden="true">→</span>
                 </a>
               </div>
+              <div className="mt-4">
+                <a href="">
+                  <img src="images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
+                </a>
+              </div>
             </div>
-            <div className="mt-16 flow-root sm:mt-24">
+            </div>
+            <div className="mt-10 flow-root sm:mt-20">
               <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <img
                   alt="App screenshot"

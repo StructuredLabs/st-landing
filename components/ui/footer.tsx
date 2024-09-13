@@ -103,6 +103,12 @@ export default function Footer() {
                     <img src="images/investors/GC.png" alt="GC" className="h-10" />
                 </a>
             </div>
+            <div className="flex items-center space-x-4 mt-8">
+              <span className="text-sm text-gray-600">🔒 Built with security and privacy: </span>
+                <a href="">
+                    <img src="images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
+                </a>
+            </div>
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
