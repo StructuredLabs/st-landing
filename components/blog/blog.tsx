@@ -1,25 +1,21 @@
 import { lazy } from "react";
 
-const Blog1 = lazy(
-  () => import("./blogs/Blog1"),
+const TimesSqBlog = lazy(
+  () => import("./blogs/TimesSqBlog"),
 );
-const Blog2 = lazy(
-  () => import("./blogs/Blog2"),
-);
-const Blog3 = lazy(
-  () => import("./blogs/Blog3"),
-);
-const Blog4 = lazy(
-  () => import("./blogs/Blog4"),
-);
+
 const StartupBattlefieldBlog = lazy(
   () => import("./blogs/StartupBattlefieldBlog"),
+);
+
+const Soc2Type1Blog = lazy(
+  () => import("./blogs/Soc2Type1Blog"),
 );
 
 export const posts = [
   {
     id: 0,
-    title: `Structured Selected To Participate in Startup Battlefield 200 at TechCrunch Disrupt 2024`,
+    title: `Structured Selected for TechCrunch Disrupt - Startup Battlefield 2024`,
     href: '#',
     description:
       `Structured has been selected to participate in Startup Battlefield 200 at TechCrunch Disrupt 2024. Startup Battlefield 200 is the world's preeminent startup competition. Startup Battlefield 200 will showcase the top 200 startups from around the globe, across multiple industries.`,
@@ -36,75 +32,39 @@ export const posts = [
     component: StartupBattlefieldBlog
   }, {
     id: 1,
-    title: `The Power of Consistent Metrics for Growing SaaS Companies`,
+    title: `Structured is now SOC 2 Type 1 Compliant`,
     href: '#',
     description:
-      `Growing a SaaS business is challenging enough without having to deal with inconsistent metrics. This post dives into how Structured helps ensure everyone in your company is on the same page with metrics like CAC and MRR, making growth smoother and more predictable.`,
-    imageUrl: 'images/blogs/blog1.png',
+      `We are thrilled to announce that Structured has achieved SOC 2 Type 1 compliance, a significant milestone in our ongoing commitment to protecting your data and ensuring the highest standards of security.`,
+    imageUrl: 'images/blogs/soc2_type1.png',
     date: 'June 6, 2024',
     datetime: '2024-06-06',
-    category: { title: 'Business Strategy', href: '#' },
+    category: { title: 'Security', href: '#' },
     author: {
       name: 'Amrutha Gujjar',
       role: 'Founder and CEO',
       href: '#',
       imageUrl: 'images/team/amrutha.png',
     },
-    component: Blog1,
+    component: Soc2Type1Blog,
   },
   {
     id: 2,
-    title: 'Why Misaligned Metrics Are Costing You More Than You Think',
+    title: 'Structured featured in NYC Times Square',
     href: '#',
     description:
-      `Misaligned metrics can be a silent killer for your business. This article explores the real costs of metric misalignment and how Structured can help fix the problem by keeping everyone in sync with accurate, reliable data.`,
-    imageUrl: 'images/blogs/blog2.png',
+      `Structured is being featured in Times Square this week! It's so exciting! Thank you to Brex and Y Combinator for supporting our journey. 😀`,
+    imageUrl: 'images/blogs/structured-times-square.png',
     date: 'May 12, 2024',
     datetime: '2024-05-12',
-    category: { title: 'Operational Efficiency', href: '#' },
+    category: { title: 'News', href: '#' },
     author: {
       name: 'Shivam Singhal',
       role: 'Founder and CTO',
       href: '#',
       imageUrl: 'images/team/shivam.png',
     },
-    component: Blog2,
-  },
-  {
-    id: 3,
-    title: 'How Structured Keeps Your CAC and MRR on Track',
-    href: '#',
-    description:
-      `If different teams in your company are using different definitions for key metrics like CAC and MRR, it can lead to a lot of confusion. Find out how Structured helps standardize these metrics across your organization so you can make decisions with confidence.`,
-    imageUrl: 'images/blogs/blog3.png',
-    date: 'May 23, 2024',
-    datetime: '2024-05-23',
-    category: { title: 'Revenue Optimization', href: '#' },
-    author: {
-      name: 'Amrutha Gujjar',
-      role: 'Founder and CEO',
-      href: '#',
-      imageUrl: 'images/team/amrutha.png',
-    },
-    component: Blog3,
-  },
-  {
-    id: 4,
-    title: 'Turning Data into Decisions: How Structured Simplifies Your Metrics',
-    href: '#',
-    description:
-      `Data is only as good as the decisions it informs. This post covers how Structured takes the complexity out of managing business metrics, turning your data into actionable insights that drive growth.`,
-    imageUrl: 'images/blogs/blog4.png',
-    date: 'May 12, 2024',
-    datetime: '2024-05-12',
-    category: { title: 'Data Strategy', href: '#' },
-    author: {
-      name: 'Shivam Singhal',
-      role: 'Founder and CTO',
-      href: '#',
-      imageUrl: 'images/team/shivam.png',
-    },
-    component: Blog4,
+    component: TimesSqBlog,
   },
 ];
 
@@ -115,7 +75,7 @@ export default function Blog() {
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
           <p className="mt-2 text-lg leading-8 text-gray-600">
-            Learn how to grow your business with our expert advice.
+            Your source for the latest company updates and announcements.
           </p>
           <div className="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
             {posts.map((post) => (
@@ -124,7 +84,7 @@ export default function Blog() {
                   <img
                     alt=""
                     src={post.imageUrl}
-                    className={`absolute inset-0 h-full w-full rounded-2xl ${post.id === 0 ? 'object-contain bg-black' : 'object-cover bg-gray-100'}`}
+                    className={`absolute inset-0 h-full w-full rounded-2xl ${post.id === 0 || post.id === 1 ? 'object-contain bg-transparent' : 'object-cover bg-gray-100'}`}
                   />
                   <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                 </div>
