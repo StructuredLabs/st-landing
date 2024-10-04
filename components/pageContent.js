@@ -21,9 +21,13 @@ import {
 // Home Page
 // ---------------
 
-export const heroPageTitle = "Simplify Data Consumption for Business Users";
+// pageContent.js
+export const heroPageTitle = "One  ";
+export const heroPageEmphasis = "metrics ";
+export const heroPageEnd = "layer to govern them all";
+
 export const heroPageSubtitle =
-  "Define, manage, and scale your critical metrics seamlessly. Document your Snowflake tables in Notion with one click.";
+  "Structured helps teams find, fix, and unify fragmented data models across messy datasets. Speed up reporting and trust your metrics with data governance that works.";
 
 export const heroPageImageUrl = "images/glossary.png";
 export const featuresHomePageTitle = "Achieve Consistency Across Teams";
