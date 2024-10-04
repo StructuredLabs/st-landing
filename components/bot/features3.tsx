@@ -1,4 +1,4 @@
-import { featuresPageSection3, featuresPageSection3Title, featuresPageSection3Subtitle, featuresPageSection3ImgUrl } from '../pageContent';
+import { botPageSection3, botPageSection3Title, botPageSection3Subtitle, botPageSection3ImgUrl } from '../pageContent';
 
 export default function Features3() {
     return (
@@ -8,22 +8,22 @@ export default function Features3() {
                     <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2">
                         <div>
                             <h2 className="text-4xl tracking-wide font-bold tracking-tight text-gray-900">
-                                {featuresPageSection3Title}
+                                {botPageSection3Title}
                             </h2>
                             <p className="mt-4 text-gray-500">
-                                {featuresPageSection3Subtitle}
+                                {botPageSection3Subtitle}
                             </p>
                         </div>
                         <div className="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100">
                             <img
                                 alt=""
-                                src={featuresPageSection3ImgUrl}
+                                src={botPageSection3ImgUrl}
                                 className="object-cover object-center"
                             />
                         </div>
                     </div>
                     <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
-                        {featuresPageSection3.map((feature) => (
+                        {botPageSection3.map((feature) => (
                             <div key={feature.name} className="sm:flex lg:block">
                                 <div className="sm:flex-shrink-0">
                                     <feature.icon className="h-16 w-16 text-gray-500" />

@@ -27,7 +27,7 @@ export default function Pricing() {
         {/* Pricing section */}
         <div className="mx-auto mt-16 max-w-7xl px-6 sm:mt-32 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
-            <h1 className="text-base font-semibold leading-7 text-blue-600">Pricing</h1>
+            <h1 className="text-base tracking-wide font-semibold leading-7 text-blue-600">Pricing</h1>
             <p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               {pricingPageTitle}
             </p>
