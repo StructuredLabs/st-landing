@@ -1,12 +1,12 @@
 'use client'
 
-import { heroPageSubtitle, heroPageTitle, heroPageImageUrl } from "./pageContent"
+import { heroPageSubtitle, heroPageTitle, heroPageEmphasis, heroPageEnd, heroPageImageUrl } from "./pageContent"
 
 export default function Hero() {
   return (
     <div className="bg-white">
-      <div className="relative isolate pt-5">
-        <div className="py-24 sm:py-32 lg:pb-40">
+      <div className="relative isolate">
+        <div className="py-24 sm:py-24 lg:pb-32">
         <div className="flex justify-center">
           <p className="relative rounded-full bg-gray-50 mb-6 px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/5 flex items-center">
             <img src="images/investors/YC.png" alt="YC Logo" className="h-4 w-4 mr-2 ml-2"/>
@@ -20,10 +20,19 @@ export default function Hero() {
         </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                {heroPageTitle}
+              <h1 className="text-4xl tracking-wide text-gray-900 sm:text-5xl">
+                {/* First part of the title */}
+                {heroPageTitle} 
+                
+                {/* Emphasized part */}
+                <span className="bg-gradient-to-r from-[#4084f4] to-sky-600 bg-clip-text text-transparent font-bold">
+                  {heroPageEmphasis}
+                </span>
+
+                {/* Remaining part of the title */}
+                {heroPageEnd}
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-gray-600">
                 {heroPageSubtitle}
               </p>
               <div className="mt-10 flex flex-col items-center justify-center">
@@ -31,21 +40,16 @@ export default function Hero() {
                 <a
                   href="https://app.structuredlabs.com/"
                   target="_blank"
-                  className="rounded-md bg-slate-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
+                  className="rounded-md bg-slate-900 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
                 >
                   Get started
                 </a>
                 <a
                   href="https://docs.structuredlabs.com"
                   target="_blank"
-                  className="text-sm font-semibold leading-6 text-gray-900"
+                  className="text-md font-semibold leading-6 text-gray-900"
                 >
                   Learn more <span aria-hidden="true">→</span>
-                </a>
-              </div>
-              <div className="mt-4">
-                <a href="">
-                  <img src="images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
                 </a>
               </div>
             </div>
