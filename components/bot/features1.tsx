@@ -1,4 +1,4 @@
-import { featuresPageSection1, featuresPageSectionTag, featuresPageSectionTitle, featuresPageSectionSubtitle, featuresPageSection1ImgUrl } from '../pageContent'
+import { botPageSection1, botPageSectionTag, botPageSectionTitle, botPageSectionSubtitle, botPageSection1ImgUrl } from '../pageContent'
 
 export default function Features1() {
   return (
@@ -7,13 +7,13 @@ export default function Features1() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-base font-semibold leading-7 text-blue-600">{featuresPageSectionTag}</h2>
-              <p className="mt-2 text-3xl tracking-wide font-bold tracking-tight text-gray-900 sm:text-4xl">{featuresPageSectionTitle}</p>
+              <h2 className="text-base font-semibold leading-7 text-blue-600">{botPageSectionTag}</h2>
+              <p className="mt-2 text-3xl tracking-wide font-bold tracking-tight text-gray-900 sm:text-4xl">{botPageSectionTitle}</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                {featuresPageSectionSubtitle}
+                {botPageSectionSubtitle}
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                {featuresPageSection1.map((feature) => (
+                {botPageSection1.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
                       <feature.icon aria-hidden="true" className="absolute left-1 top-1 h-5 w-5 text-blue-600" />
@@ -27,7 +27,7 @@ export default function Features1() {
           </div>
           <img
             alt="Product screenshot"
-            src={featuresPageSection1ImgUrl}
+            src={botPageSection1ImgUrl}
             width={2432}
             height={1442}
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
