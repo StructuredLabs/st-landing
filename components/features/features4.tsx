@@ -1,4 +1,4 @@
-import {features2, features2SectionSubtitle, features2SectionTag, features2SectionTitle, features2SectionImageUrl } from "./pageContent";
+import {features2, features2SectionSubtitle, features2SectionTag, features2SectionTitle, features2SectionImageUrl } from "../pageContent";
 
 export default function Features2() {
     return (
