@@ -26,12 +26,12 @@ import {
 // ---------------
 
 // pageContent.js
-export const heroPageTitle = "One  ";
+export const heroPageTitle = "The simplest ";
 export const heroPageEmphasis = "metrics ";
-export const heroPageEnd = "layer to govern them all";
+export const heroPageEnd = "platform for modern data teams";
 
 export const heroPageSubtitle =
-  "Structured helps teams find, fix, and unify fragmented data models across messy datasets. Speed up reporting and trust your metrics with data governance that works.";
+  "Stop wrestling with broken data models. Structured helps you find and fix problems quickly so you can trust your metrics and move faster.";
 
 export const heroPageImageUrl = "images/glossary.png";
 export const featuresHomePageTitle = "The Smarter Way to Manage Data Models";
