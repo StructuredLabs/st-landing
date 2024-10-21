@@ -43,23 +43,30 @@ export default function Example() {
   return (
     <>
       {/* Banner at the top of the page */}
-    <div className="flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
-      <p className="text-sm leading-6 text-white">
-        <a href="https://techcrunch.com/startup-battlefield/company/structured/">
-          <strong className="font-semibold">Featured at TechCrunch Disrupt</strong>
-          <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline h-0.5 w-0.5 fill-current">
-            <circle r={1} cx={1} cy={1} />
-          </svg>
-          See More&nbsp;<span aria-hidden="true">&rarr;</span>
-        </a>
-      </p>
-      <div className="flex flex-1 justify-end">
-        <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
-          <span className="sr-only">Dismiss</span>
-          {/* <XMarkIcon aria-hidden="true" className="h-5 w-5 text-white" /> */}
-        </button>
+      <div className="flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
+        <p className="text-sm leading-6 text-white">
+          <a href="https://techcrunch.com/startup-battlefield/company/structured/" target="_blank" rel="noopener noreferrer" className="flex items-center">
+            {/* TechCrunch Logo */}
+            <img
+              src="images/investors/tc.png" // Use your preferred TechCrunch logo URL
+              alt="TechCrunch Logo"
+              className="h-4 w-6 mr-2" // Adjust size and spacing as needed
+            />
+            <strong className="font-semibold">Structured chosen as one of TechCrunch Disrupt 2024's top 200 startups.</strong>
+            <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline h-0.5 w-0.5 fill-current">
+              <circle r={1} cx={1} cy={1} />
+            </svg>
+            See More&nbsp;<span aria-hidden="true">&rarr;</span>
+          </a>
+        </p>
+        <div className="flex flex-1 justify-end">
+          <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
+            <span className="sr-only">Dismiss</span>
+            {/* <XMarkIcon aria-hidden="true" className="h-5 w-5 text-white" /> */}
+          </button>
+        </div>
       </div>
-    </div>
+
 
       {/* Header section */}
       <header className="bg-white">
@@ -121,7 +128,7 @@ export default function Example() {
               target='_blank'
               className="rounded-md bg-slate-900 px-3 py-2 text-md  text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
             >
-              Demo
+              Book a Demo
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -152,7 +159,7 @@ export default function Example() {
                 target='_blank'
                 className="ml-auto rounded-md bg-blue-600 px-3 py-2 text-md  text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
-                Demo
+                Book a Demo
               </a>
               <button
                 type="button"
