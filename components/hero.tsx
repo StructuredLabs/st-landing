@@ -20,9 +20,9 @@ export default function Hero() {
         </div>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl tracking-wide text-gray-900 sm:text-5xl">
+              <h1 className="text-4xl tracking-wide leading-[2rem] text-gray-900 sm:text-5xl">
                 {/* First part of the title */}
-                {heroPageTitle} 
+                {heroPageTitle}
                 
                 {/* Emphasized part */}
                 <span className="bg-gradient-to-r from-[#4084f4] to-sky-600 bg-clip-text text-transparent font-bold">
