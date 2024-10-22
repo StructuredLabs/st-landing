@@ -1,36 +1,155 @@
-export default function Testimonial() {
+const featuredTestimonial = {
+  body: 'As a startup, it can be challenging to balance the need for immediate growth with the long-term requirements for robust data management. Structured\'s automated metric lineage proves to be an essential resource for this problem. It seamlessly tracks the evolutions in your assumptions/metrics while ensuring that the entire team remains aligned in their understanding of the key decision-making metrics.',
+  author: {
+    name: 'Chris Jun',
+    handle: 'chrisjun',
+    imageUrl:'images/testimonials/chrisjun.png',
+    logoUrl: 'images/testimonials/deggie-logo.png',
+  },
+}
+const testimonials = [
+  [
+    [
+      {
+        body: 'The ability to search for and access data across our organization has significantly improved our efficiency. No more hunting through spreadsheets—everything is organized and accessible.',
+        author: {
+          name: 'James Anderson',
+          handle: 'jamesanderson',
+          imageUrl:'images/testimonials/testimonial-headshot-4.png',
+        },
+      },
+      // More testimonials...
+    ],
+    [
+      {
+        body: 'Structured makes it easy to document and share our data assets. The clarity it provides has improved collaboration across teams and led to better decision-making.',
+        author: {
+          name: 'Laura Kim',
+          handle: 'laurakim',
+          imageUrl:'images/testimonials/testimonial-headshot-3.png',
+        },
+      },
+      // More testimonials...
+    ],
+  ],
+  [
+    [
+      {
+        body: 'We used to spend too much time waiting for data requests to be processed. Now, with the Slack integration, I can get the insights I need on the spot, which has streamlined our operations.',
+        author: {
+          name: 'Ethan Lee',
+          handle: 'ethanlee',
+          imageUrl:'images/testimonials/testimonial-headshot-1.png',
+        },
+      },
+      // More testimonials...
+    ],
+    [
+      {
+        body: 'We’ve gone from being reactive to proactive thanks to this data catalog. awesome team!!',
+        author: {
+          name: 'Ravi Gupta',
+          handle: 'ravigupta',
+          imageUrl:'images/testimonials/testimonial-headshot-2.png',
+        },
+      },
+      // More testimonials...
+    ],
+  ],
+]
+
+function classNames(...classes:any) {
+  return classes.filter(Boolean).join(' ')
+}
+
+export default function Example() {
   return (
-    <section className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:px-8">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(45rem_50rem_at_top,theme(colors.blue.100),white)] opacity-20" />
-      <div className="absolute inset-y-0 right-1/2 -z-10 mr-16 w-[200%] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-blue-600/10 ring-1 ring-blue-50 sm:mr-28 lg:mr-0 xl:mr-16 xl:origin-center" />
-      <div className="mx-auto max-w-2xl lg:max-w-4xl">
-        <img
-          alt=""
-          src="images/deggie-logo.png"
-          className="mx-auto h-12"
+    <div className="relative isolate bg-white pb-32 pt-24 sm:pt-32">
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-1/2 -z-10 -translate-y-1/2 transform-gpu overflow-hidden opacity-30 blur-3xl"
+      >
+        <div
+          style={{
+            clipPath:
+              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+          }}
+          className="ml-[max(50%,38rem)] aspect-[1313/771] w-[82.0625rem] bg-gradient-to-tr from-[#808dff] to-[#89d6fc]"
         />
-        <figure className="mt-10">
-          <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p>
-              “As a startup, it can be challenging to balance the need for immediate growth with the long-term requirements for robust data management. Structured's automated metric lineage proves to be an essential resource for this problem. It seamlessly tracks the evolutions in your assumptions/metrics while ensuring that the entire team remains aligned in their understanding of the key decision-making metrics.”
-            </p>
-          </blockquote>
-          <figcaption className="mt-10">
-            <img
-              alt=""
-              src="images/chrisjun.png"
-              className="mx-auto h-10 w-10 rounded-full"
-            />
-            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-gray-900">Chris Jun</div>
-              <svg width={3} height={3} viewBox="0 0 2 2" aria-hidden="true" className="fill-gray-900">
-                <circle r={1} cx={1} cy={1} />
-              </svg>
-              <div className="text-gray-600">Co-Founder of Deggie</div>
-            </div>
-          </figcaption>
-        </figure>
       </div>
-    </section>
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end"
+      >
+        <div
+          style={{
+            clipPath:
+              'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
+          }}
+          className="ml-[-22rem] aspect-[1313/771] w-[82.0625rem] flex-none origin-top-right rotate-[30deg] bg-gradient-to-tr from-[#808dff] to-[#89d6fc] xl:ml-0 xl:mr-[calc(50%-12rem)]"
+        />
+      </div>
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-base font-semibold leading-7 text-indigo-600">Building Together</h2>
+          <p className="mt-2 text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            Discover how we’re making a difference together
+          </p>
+        </div>
+        <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
+          <figure className="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
+            <blockquote className="p-6 text-lg font-semibold leading-7 tracking-tight text-gray-900 sm:p-12 sm:text-xl sm:leading-8">
+              <p>{`“${featuredTestimonial.body}”`}</p>
+            </blockquote>
+            <figcaption className="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
+              <img
+                alt=""
+                src={featuredTestimonial.author.imageUrl}
+                className="h-10 w-10 flex-none rounded-full bg-gray-50"
+              />
+              <div className="flex-auto">
+                <div className="font-semibold">{featuredTestimonial.author.name}</div>
+                <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+              </div>
+              <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
+            </figcaption>
+          </figure>
+          {testimonials.map((columnGroup, columnGroupIdx) => (
+            <div key={columnGroupIdx} className="space-y-8 xl:contents xl:space-y-0">
+              {columnGroup.map((column, columnIdx) => (
+                <div
+                  key={columnIdx}
+                  className={classNames(
+                    (columnGroupIdx === 0 && columnIdx === 0) ||
+                      (columnGroupIdx === testimonials.length - 1 && columnIdx === columnGroup.length - 1)
+                      ? 'xl:row-span-2'
+                      : 'xl:row-start-1',
+                    'space-y-8',
+                  )}
+                >
+                  {column.map((testimonial) => (
+                    <figure
+                      key={testimonial.author.handle}
+                      className="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5"
+                    >
+                      <blockquote className="text-gray-900">
+                        <p>{`“${testimonial.body}”`}</p>
+                      </blockquote>
+                      <figcaption className="mt-6 flex items-center gap-x-4">
+                        <img alt="" src={testimonial.author.imageUrl} className="h-10 w-10 rounded-full bg-gray-50" />
+                        <div>
+                          <div className="font-semibold">{testimonial.author.name}</div>
+                          <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                        </div>
+                      </figcaption>
+                    </figure>
+                  ))}
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
   )
 }

@@ -25,7 +25,7 @@ const Integrations = () => {
   const randomOffset = (range: number) => Math.random() * range - range / 2;
 
   return (
-    <div className="relative py-12 w-full flex flex-col items-center justify-center">
+    <div className="relative py-6 w-full flex flex-col items-center justify-center">
       {/* Text for mobile (above the grid) */}
       <div className="text-center z-10 w-[80%] sm:hidden mb-6">
         <h2 className="text-xl sm:text-3xl font-bold tracking-tight text-gray-900">
