@@ -18,6 +18,7 @@ import { MdOutlinePodcasts } from "react-icons/md"
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Features', href: '/features' },
+  { name: 'Use Cases', href: '/use-cases' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Docs', href: 'https://docs.structuredlabs.com' },
 ]
@@ -83,7 +84,10 @@ export default function Example() {
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 focus:outline-none">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md  leading-6 text-gray-900">
+              <a key={item.name} href={item.href} 
+                  target={item.name === 'Docs' ? '_blank' : '_self'} 
+                  rel={item.name === 'Docs' ? 'noopener noreferrer' : undefined} 
+              className="text-md  leading-6 text-gray-900">
                 {item.name}
               </a>
             ))}

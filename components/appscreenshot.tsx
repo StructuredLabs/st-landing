@@ -11,11 +11,11 @@ interface Tab {
 }
 
 const tabs: Tab[] = [
-  { name: 'Connect', href: '#', current: true, imageUrl: '/images/hero.png' },
-  { name: 'Explore', href: '#', current: false, imageUrl: '/images/datasources.png' },
-  { name: 'Create', href: '#', current: false, imageUrl: '/images/metrics.png' },
-  { name: 'Alert', href: '#', current: false, imageUrl: '/images/hero.png' },
-  { name: 'Monitor', href: '#', current: false, imageUrl: '/images/hero.png' },
+    { name: 'Connect', href: '#', current: true, imageUrl: '/images/hero/connect.png' },
+    { name: 'Explore', href: '#', current: false, imageUrl: '/images/hero/definitions.png' },
+    { name: 'Ask', href: '#', current: false, imageUrl: '/images/hero/ask.png' },
+    { name: 'Alert', href: '#', current: false, imageUrl: '/images/hero/tickets.png' },
+    { name: 'Monitor', href: '#', current: false, imageUrl: '/images/hero/analytics.png' },
 ];
 
 function classNames(...classes: string[]) {
