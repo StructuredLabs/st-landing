@@ -20,13 +20,15 @@ export default function Example() {
               height={48}
               className="max-h-12 w-full object-contain"
             />
+            <a href="https://saphira.ai" target="_blank">
             <img
-              alt="Tuple"
-              src="images/logos/logo3.png"
-              width={158}
-              height={48}
-              className="max-h-12 w-full object-contain"
+                alt="Tuple"
+                src="images/logos/logo3.png"
+                width="158"
+                height="48"
+                className="max-h-12 w-full object-contain"
             />
+            </a>
             <img
               alt="SavvyCal"
               src="images/logos/logo4.png"
