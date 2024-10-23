@@ -5,7 +5,7 @@ const navigation = {
   company: [
     { name: 'Home', href: '/' },
     { name: 'Features', href: '/features' },
-    // { name: 'Structured Bot', href: '/bot' },
+    { name: 'Use Cases', href: '/use-cases' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'Contact', href: '/contact' },
     { name: 'Docs', href: 'https://docs.structuredlabs.com' },
@@ -22,7 +22,7 @@ const navigation = {
       name: 'Linkedin',
       href: 'https://www.linkedin.com/company/structuredlabs/',
       icon: (props: any) => (
-        <FaLinkedin className="size-6" />
+        <FaLinkedin className="h-6 w-6" />
       ),
     },
     {
@@ -38,7 +38,7 @@ const navigation = {
       name: 'Slack',
       href: 'https://structured-users.slack.com/join/shared_invite/zt-265ong01f-UHP6BP3FzvOmMQDIKty_JQ#/shared-invite/email-',
       icon: (props: any) => (
-        <AiFillSlackCircle className="size-6" />
+        <AiFillSlackCircle className="h-6 w-6" />
       ),
     },
     {
@@ -84,17 +84,6 @@ export default function Footer() {
               src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/65d4da523a7af018c0b99c71_TransparentLogo.png"
               className="h-7"
             />
-            <p className="text-sm leading-6 text-gray-600">
-              Made with&nbsp; ❤️ &nbsp;in San Francisco, CA.
-            </p>
-            <div className="flex space-x-6">
-              {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
-                  <span className="sr-only">{item.name}</span>
-                  <item.icon aria-hidden="true" className="h-6 w-6" />
-                </a>
-              ))}
-            </div>
             <div className="flex items-center space-x-4 mt-8">
               <span className="text-sm text-gray-600">Backed by:</span>
                 <a href="https://www.ycombinator.com">
@@ -104,20 +93,29 @@ export default function Footer() {
                     <img src="images/investors/GC.png" alt="GC" className="h-10" />
                 </a>
             </div>
-            <div className="flex items-center space-x-4 mt-8">
+            <div className="flex items-center space-x-4 mt-4">
               <span className="text-sm text-gray-600">🔒 Built with security and privacy: </span>
                 <a href="">
                     <img src="images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
                 </a>
             </div>
+              <div className="flex space-x-6 mt-8">
+              {navigation.social.map((item) => (
+                <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon aria-hidden="true" className="h-6 w-6" />
+                </a>
+              ))}
+            </div>
           </div>
+          
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-4 space-y-2">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
@@ -129,7 +127,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-4 space-y-2">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
                       <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">

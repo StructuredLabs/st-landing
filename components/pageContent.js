@@ -175,32 +175,6 @@ export const integrations = [
   { alt: "Postgres", src: "images/postgres.svg" },
 ];
 
-export const featuresPageSection3ImgUrl = "images/glossary.png";
-export const featuresPageSection3Title = "Transform Data into Trusted Insights";
-export const featuresPageSection3Subtitle =
-  "Structured bridges the gaps in your data flow, ensuring every stakeholder has access to accurate, reliable metrics they can trust.";
-
-export const featuresPageSection3 = [
-  {
-    name: "Dynamic Data Exploration",
-    icon: Cog6ToothIcon,
-    description:
-      "Explore your data intuitively. Slice and dice your metrics to uncover the insights that matter most for your business.",
-  },
-  {
-    name: "Resolve Queries Swiftly",
-    icon: CheckCircleIcon,
-    description:
-      "Answer ad-hoc data questions quickly, without the need to navigate through multiple teams and tools.",
-  },
-  {
-    name: "Comprehensive Data Glossary",
-    icon: ArrowsRightLeftIcon,
-    description:
-      "Keep everyone on the same page with a unified glossary of metric definitions, ensuring clarity and consistency across your organization.",
-  },
-];
-
 // ---------------
 // Bot Page
 // ---------------
