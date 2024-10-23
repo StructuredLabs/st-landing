@@ -4,17 +4,17 @@ const featuredTestimonial = {
     name: 'Chris Jun',
     handle: 'chrisjun',
     imageUrl:'images/testimonials/chrisjun.png',
-    logoUrl: 'images/testimonials/deggie-logo.png',
+    logoUrl: 'images/logos/logo2.png',
   },
 }
 const testimonials = [
   [
     [
       {
-        body: 'The ability to search for and access data across our organization has significantly improved our efficiency. No more hunting through spreadsheets—everything is organized and accessible.',
+        body: 'Keeping definitions of KPI\'s and other metrics consistent across a team is always a challenge. Structured makes it much easier to ensure you\'re all driving towards the same goals with a shared understanding of how to measure success.',
         author: {
-          name: 'James Anderson',
-          handle: 'jamesanderson',
+          name: 'Akash Kashyap',
+          handle: 'akashkashyap',
           imageUrl:'images/testimonials/testimonial-headshot-4.png',
         },
       },
@@ -22,10 +22,10 @@ const testimonials = [
     ],
     [
       {
-        body: 'Structured makes it easy to document and share our data assets. The clarity it provides has improved collaboration across teams and led to better decision-making.',
+        body: 'Structured has made it easier for us to set and track our KPIs while also improving data discovery within our team. Everything is clear and accessible, so we know where we stand and can make faster, better decisions to hit our goals.',
         author: {
-          name: 'Laura Kim',
-          handle: 'laurakim',
+          name: 'Akshay Chalana',
+          handle: 'akshaychalana',
           imageUrl:'images/testimonials/testimonial-headshot-3.png',
         },
       },
@@ -35,10 +35,10 @@ const testimonials = [
   [
     [
       {
-        body: 'We used to spend too much time waiting for data requests to be processed. Now, with the Slack integration, I can get the insights I need on the spot, which has streamlined our operations.',
+        body: '',
         author: {
-          name: 'Ethan Lee',
-          handle: 'ethanlee',
+          name: 'Andrew Hurst',
+          handle: 'andrewhurst',
           imageUrl:'images/testimonials/testimonial-headshot-1.png',
         },
       },
@@ -46,11 +46,20 @@ const testimonials = [
     ],
     [
       {
-        body: 'We’ve gone from being reactive to proactive thanks to this data catalog. awesome team!!',
+        body: '',
         author: {
-          name: 'Ravi Gupta',
-          handle: 'ravigupta',
+          name: 'Drake Senter',
+          handle: 'drakesenter',
           imageUrl:'images/testimonials/testimonial-headshot-2.png',
+        },
+      },
+      // More testimonials...
+            {
+        body: '',
+        author: {
+          name: 'Rahil Jetly',
+          handle: 'rahiljetly',
+          imageUrl:'images/testimonials/testimonial-headshot-5.png',
         },
       },
       // More testimonials...
@@ -111,7 +120,7 @@ export default function Example() {
                 <div className="font-semibold">{featuredTestimonial.author.name}</div>
                 <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
               </div>
-              <img alt="" src={featuredTestimonial.author.logoUrl} className="h-10 w-auto flex-none" />
+              <img alt="" src={featuredTestimonial.author.logoUrl} className="h-7 w-auto flex-none" />
             </figcaption>
           </figure>
           {testimonials.map((columnGroup, columnGroupIdx) => (

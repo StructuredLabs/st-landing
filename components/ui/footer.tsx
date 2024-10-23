@@ -5,7 +5,6 @@ const navigation = {
   company: [
     { name: 'Home', href: '/' },
     { name: 'Features', href: '/features' },
-    { name: 'Use Cases', href: '/use-cases' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'Contact', href: '/contact' },
     { name: 'Docs', href: 'https://docs.structuredlabs.com' },
