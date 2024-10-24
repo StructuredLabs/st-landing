@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      {/* <Logos /> */}
+      <Logos />
       <Features />
       <Integrations />
       <Security />
