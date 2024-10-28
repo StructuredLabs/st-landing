@@ -1,10 +1,10 @@
 const featuredTestimonial = {
-  body: 'As a startup, it can be challenging to balance the need for immediate growth with the long-term requirements for robust data management. Structured\'s automated metric lineage proves to be an essential resource for this problem. It seamlessly tracks the evolutions in your assumptions/metrics while ensuring that the entire team remains aligned in their understanding of the key decision-making metrics.',
+        body: 'One of the biggest issues in the modern tech stack is a lack of a central source of truth when it comes to data definitions. When this does exist, it’s a pain to work with or remember where to access it. Having an AI enabled solution that you can “speak to” will be a game changer and definitely reduce the noise and bloat that most systems experience as a result of siloed information. I love the idea of a “phone a friend” accessible via slack to make sure I’m using the data at my disposal well.',
   author: {
-    name: 'Chris Jun',
-    handle: 'chrisjun',
-    imageUrl:'images/testimonials/chrisjun.png',
-    logoUrl: 'images/logos/logo2.png',
+          name: 'Rahil Jetly',
+          handle: 'rahiljetly',
+          imageUrl:'images/testimonials/testimonial-headshot-5.png',
+    // logoUrl: 'images/logos/logo2.png',
   },
 }
 const testimonials = [
@@ -35,8 +35,10 @@ const testimonials = [
   [
     [
       {
-        body: '',
+        body: 'Metrics are only useful if everyone agrees on what they mean. Structured standardizes definitions and solves a lot of wasted time and miscommunication.',
         author: {
+
+
           name: 'Andrew Hurst',
           handle: 'andrewhurst',
           imageUrl:'images/testimonials/testimonial-headshot-1.png',
@@ -45,21 +47,23 @@ const testimonials = [
       // More testimonials...
     ],
     [
-      {
-        body: '',
-        author: {
-          name: 'Drake Senter',
-          handle: 'drakesenter',
-          imageUrl:'images/testimonials/testimonial-headshot-2.png',
-        },
-      },
+    //   {
+    //     body: '',
+    //     author: {
+    //       name: 'Drake Senter',
+    //       handle: 'drakesenter',
+    //       imageUrl:'images/testimonials/testimonial-headshot-2.png',
+    //     },
+    //   },
       // More testimonials...
             {
-        body: '',
+         body: 'As a startup, it can be challenging to balance the need for immediate growth with the long-term requirements for robust data management. Structured\'s automated metric lineage proves to be an essential resource for this problem. It seamlessly tracks the evolutions in your assumptions/metrics while ensuring that the entire team remains aligned in their understanding of the key decision-making metrics.',
+
         author: {
-          name: 'Rahil Jetly',
-          handle: 'rahiljetly',
-          imageUrl:'images/testimonials/testimonial-headshot-5.png',
+                            name: 'Chris Jun',
+    handle: 'chrisjun',
+    imageUrl:'images/testimonials/chrisjun.png',
+
         },
       },
       // More testimonials...
