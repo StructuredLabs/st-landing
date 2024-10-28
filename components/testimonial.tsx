@@ -124,7 +124,7 @@ export default function Example() {
                 <div className="font-semibold">{featuredTestimonial.author.name}</div>
                 <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
               </div>
-              <img alt="" src={featuredTestimonial.author.logoUrl} className="h-7 w-auto flex-none" />
+              {/* <img alt="" src={featuredTestimonial.author.logoUrl} className="h-7 w-auto flex-none" /> */}
             </figcaption>
           </figure>
           {testimonials.map((columnGroup, columnGroupIdx) => (
