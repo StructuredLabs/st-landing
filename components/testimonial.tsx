@@ -10,6 +10,14 @@ const featuredTestimonial = {
 const testimonials = [
   [
     [
+       {
+        body: 'Imagine a world where end users can make data requests and receive results directly in Slack, bypassing the need for slide decks, CRMs, or BI tools for one-off reports. This solution would accelerate data delivery, improve data accessibility, and ensure consistent data definitions.',
+        author: {
+          name: 'Drake Senter',
+          handle: 'drakesenter',
+          imageUrl:'images/testimonials/testimonial-headshot-2.png',
+        },
+      },
       {
         body: 'Keeping definitions of KPI\'s and other metrics consistent across a team is always a challenge. Structured makes it much easier to ensure you\'re all driving towards the same goals with a shared understanding of how to measure success.',
         author: {
@@ -20,17 +28,17 @@ const testimonials = [
       },
       // More testimonials...
     ],
-    [
-      {
-        body: 'Structured has made it easier for us to set and track our KPIs while also improving data discovery within our team. Everything is clear and accessible, so we know where we stand and can make faster, better decisions to hit our goals.',
-        author: {
-          name: 'Akshay Chalana',
-          handle: 'akshaychalana',
-          imageUrl:'images/testimonials/testimonial-headshot-3.png',
-        },
-      },
-      // More testimonials...
-    ],
+    // [
+    //   // More testimonials...
+    //    {
+    //     body: 'Metrics are only useful if everyone agrees on what they mean. Structured standardizes definitions and solves a lot of wasted time and miscommunication.',
+    //     author: {
+    //       name: 'Andrew Hurst',
+    //       handle: 'andrewhurst',
+    //       imageUrl:'images/testimonials/testimonial-headshot-1.png',
+    //     },
+    //   },
+    // ],
   ],
   [
     [
@@ -47,14 +55,6 @@ const testimonials = [
       // More testimonials...
     ],
     [
-    //   {
-    //     body: '',
-    //     author: {
-    //       name: 'Drake Senter',
-    //       handle: 'drakesenter',
-    //       imageUrl:'images/testimonials/testimonial-headshot-2.png',
-    //     },
-    //   },
       // More testimonials...
             {
          body: 'As a startup, it can be challenging to balance the need for immediate growth with the long-term requirements for robust data management. Structured\'s automated metric lineage proves to be an essential resource for this problem. It seamlessly tracks the evolutions in your assumptions/metrics while ensuring that the entire team remains aligned in their understanding of the key decision-making metrics.',
@@ -64,6 +64,15 @@ const testimonials = [
     handle: 'chrisjun',
     imageUrl:'images/testimonials/chrisjun.png',
 
+        },
+        
+      },
+        {
+        body: 'Structured has made it easier for us to set and track our KPIs while also improving data discovery within our team. Everything is clear and accessible, so we know where we stand and can make faster, better decisions to hit our goals.',
+        author: {
+          name: 'Akshay Chalana',
+          handle: 'akshaychalana',
+          imageUrl:'images/testimonials/testimonial-headshot-3.png',
         },
       },
       // More testimonials...
