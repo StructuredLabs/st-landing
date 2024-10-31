@@ -28,17 +28,17 @@ const testimonials = [
       },
       // More testimonials...
     ],
-    // [
-    //   // More testimonials...
-    //    {
-    //     body: 'Metrics are only useful if everyone agrees on what they mean. Structured standardizes definitions and solves a lot of wasted time and miscommunication.',
-    //     author: {
-    //       name: 'Andrew Hurst',
-    //       handle: 'andrewhurst',
-    //       imageUrl:'images/testimonials/testimonial-headshot-1.png',
-    //     },
-    //   },
-    // ],
+    [
+      // More testimonials...
+       {
+        body: 'The hardest part about using metrics isn’t the data, it’s agreeing on what the data represents. Structured standardizes metrics definitions and makes everyone’s life easier.',
+        author: {
+          name: 'Natan Vidra',
+          handle: 'natanvidra',
+          imageUrl:'images/testimonials/testimonial-headshot-6.png',
+        },
+      },
+    ],
   ],
   [
     [
