@@ -15,9 +15,9 @@ export default function TimesSqBlog({
                 prefix={prefix}
                 title={title}
                 description={description}
+                imageUrl="/images/blogs/structured-times-square.png"
             >
                 <div className="mt-10 max-w-3xl space-y-6 text-gray-700 mx-auto">
-                    <img src="./images/blogs/structured-times-square.png" alt="Structured featured in Times Square" className="w-full h-auto mb-8" />
                     
                     <p>
                         We are beyond excited to share that Structured has been featured in one of the most iconic locations in the world—New York City's Times Square! Seeing our company name displayed in the heart of the city that never sleeps is a surreal and proud moment for us. It's a powerful reminder of how far we've come, and it's a testament to the dedication and hard work of our entire team.

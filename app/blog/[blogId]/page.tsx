@@ -13,5 +13,5 @@ export default function Page({ params }: { params: { blogId: string } }) {
   if (!blog) {
     return redirect('/404')
   }
-  return <blog.component title={blog.title} description={blog.description} />
+  return <blog.component title={blog.title} description={blog.description} imageUrl={blog.imageUrl} />
 }

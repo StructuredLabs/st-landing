@@ -95,7 +95,7 @@ export default function Footer() {
             <div className="flex items-center space-x-4 mt-4">
               <span className="text-sm text-gray-600">🔒 Built with security and privacy: </span>
                 <a href="">
-                    <img src="images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
+                    <img src="/images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
                 </a>
             </div>
               <div className="flex space-x-6 mt-8">
