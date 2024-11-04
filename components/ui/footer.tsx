@@ -86,10 +86,10 @@ export default function Footer() {
             <div className="flex items-center space-x-4 mt-8">
               <span className="text-sm text-gray-600">Backed by:</span>
                 <a href="https://www.ycombinator.com">
-                    <img src="images/investors/YC.png" alt="YC" className="h-10" />
+                    <img src="/images/investors/YC.png" alt="YC" className="h-10" />
                 </a>
                 <a href="https://www.generalcatalyst.com">
-                    <img src="images/investors/GC.png" alt="GC" className="h-10" />
+                    <img src="/images/investors/GC.png" alt="GC" className="h-10" />
                 </a>
             </div>
             <div className="flex items-center space-x-4 mt-4">
