@@ -36,7 +36,7 @@ export const posts = [
     href: '#',
     description:
       `We are thrilled to announce that Structured has achieved SOC 2 Type 1 compliance, a significant milestone in our ongoing commitment to protecting your data and ensuring the highest standards of security.`,
-    imageUrl: '/images/blogs/blog1.png',
+    imageUrl: '/images/blogs/soc2_type1.png',
     date: 'June 6, 2024',
     datetime: '2024-06-06',
     category: { title: 'Security', href: '#' },
@@ -53,8 +53,8 @@ export const posts = [
     title: 'Structured featured in NYC Times Square',
     href: '#',
     description:
-      `Structured is being featured in Times Square this week! It's so exciting! Thank you to Brex and Y Combinator for supporting our journey. 😀`,
-    imageUrl: '/images/blogs/blog2.png',
+      `Structured is being featured in NYC Times Square this week! It's so exciting! Thank you to Brex and Y Combinator for supporting our journey. 😀`,
+    imageUrl: '/images/blogs/structured-times-square.png',
     date: 'May 12, 2024',
     datetime: '2024-05-12',
     category: { title: 'News', href: '#' },

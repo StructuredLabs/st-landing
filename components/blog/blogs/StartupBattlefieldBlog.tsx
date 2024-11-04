@@ -5,16 +5,19 @@ export default function StartupBattlefieldBlog({
     prefix = 'Introducing',
     title = "Structured Selected To Participate in Startup Battlefield 200 at TechCrunch Disrupt 2024",
     description = "",
+    imageUrl = "/images/blogs/startup_battlefield.png"
 }: {
     prefix?: string
     title: string
-    description: string
+    description: string,
+    imageUrl: string
 }) {
     return (
         <BlogContent
             prefix={prefix}
             title={title}
             description={description}
+            imageUrl={imageUrl}
         >
             <div className="w-full flex justify-center mx-auto text-base leading-7 text-gray-700">
                 <MarkdownRenderer content={

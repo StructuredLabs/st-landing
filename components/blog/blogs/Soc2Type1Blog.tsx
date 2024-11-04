@@ -15,6 +15,7 @@ export default function Soc2Type1Blog({
                 prefix={prefix}
                 title={title}
                 description={description}
+                imageUrl="/images/blogs/soc2_type1.png"
             >
                 <div className="mt-10 max-w-3xl space-y-6 text-gray-700 mx-auto">                  
                     <p>

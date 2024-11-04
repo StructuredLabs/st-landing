@@ -48,7 +48,7 @@ export default function Example() {
           <a href="https://techcrunch.com/startup-battlefield/company/structured/" target="_blank" rel="noopener noreferrer" className="flex items-center">
             {/* TechCrunch Logo */}
             <img
-              src="images/investors/tc.png" // Use your preferred TechCrunch logo URL
+              src="/images/investors/tc.png" // Use your preferred TechCrunch logo URL
               alt="TechCrunch Logo"
               className="h-4 w-6 mr-2" // Adjust size and spacing as needed
             />
