@@ -33,8 +33,8 @@ export const heroPageEnd = "platform for modern data teams";
 export const heroPageSubtitle =
   "Stop wrestling with broken data models. Structured helps you find and fix problems quickly so you can trust your metrics and move faster.";
 
-export const heroPageImageUrl = "images/glossary.png";
 export const featuresHomePageTitle = "The Smarter Way to Manage Data Models";
+export const heroPageImageUrl = "/images/glossary.png";
 export const featuresHomePageSubtitle =
   "Structured's AI builds and governs your semantic layer, eliminating bad metrics and drift.";
 
@@ -112,7 +112,7 @@ export const features2 = [
 
 export const featuresPageSubtitle =
   "Set up in minutes. Define metrics that everyone trusts, eliminate inconsistencies, and speed up data-driven decisions without the headaches.";
-export const featuresPageSection1ImgUrl = "images/datasources.png";
+export const featuresPageSection1ImgUrl = "/images/datasources.png";
 export const featuresPageSectionTag = "Effortless Onboarding";
 export const featuresPageSectionTitle = "Streamlined Workflow";
 export const featuresPageSectionSubtitle =
@@ -143,7 +143,7 @@ export const featuresPageSection2Tag = "Designed for Clarity";
 export const featuresPageSection2Title = "Eliminate Data Discrepancies";
 export const featuresPageSection2Subtitle =
   "No more conflicting reports. With Structured, everyone works from the same consistent metrics, ensuring your teams are aligned and confident in the data.";
-export const featuresPageSection2ImgUrl = "images/entity_snowflake.png";
+export const featuresPageSection2ImgUrl = "/images/entity_snowflake.png";
 
 export const featuresPageSection2 = [
   {
@@ -170,14 +170,16 @@ export const featuresPageSection2 = [
 ];
 
 export const integrations = [
-  { alt: "BigQuery", src: "images/bigquery.svg" },
-  { alt: "Snowflake", src: "images/snowflake.svg" },
-  { alt: "Postgres", src: "images/postgres.svg" },
+  { alt: "BigQuery", src: "/images/bigquery.svg" },
+  { alt: "Snowflake", src: "/images/snowflake.svg" },
+  { alt: "Postgres", src: "/images/postgres.svg" },
 ];
 
-// ---------------
-// Bot Page
-// ---------------
+
+export const featuresPageSection3ImgUrl = "/images/glossary.png";
+export const featuresPageSection3Title = "Transform Data into Trusted Insights";
+export const featuresPageSection3Subtitle =
+  "Structured bridges information gaps, ensuring every stakeholder has access to accurate and consistent metrics.";
 
 export const botPageSubtitle =
   "Get up and running in minutes. Automate your dbt workflows, ensure consistent model definitions, and streamline your data pipeline directly within GitHub.";

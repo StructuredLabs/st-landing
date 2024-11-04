@@ -46,7 +46,7 @@ function YCombinatorBadge() {
   return (
     <div className="flex justify-center relative z-10">
       <p className="relative rounded-full bg-gray-50 mb-6 px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/5 flex items-center">
-        <img src="images/investors/YC.png" alt="YC Logo" className="h-4 w-4 mr-2 ml-2" />
+        <img src="/images/investors/YC.png" alt="YC Logo" className="h-4 w-4 mr-2 ml-2" />
         <span className="hidden md:inline">Backed by Y Combinator&nbsp; &nbsp;</span>
         <a href="https://www.ycombinator.com/companies/structured" className="font-semibold text-slate-800">
           <span aria-hidden="true" className="absolute inset-0" />
