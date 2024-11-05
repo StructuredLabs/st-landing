@@ -1,5 +1,7 @@
-import { posts } from "@/components/blog/blog"
-import { redirect } from "next/navigation"
+import { getBlogPost } from '@/utils/blog'
+import { redirect } from 'next/navigation'
+import BlogContent from '@/components/blog/blogcontent'
+import MarkdownRenderer from '@/components/ui/markdown-renderer'
 
 export const metadata = {
   title: 'Blog Content | Structured',
@@ -7,11 +9,21 @@ export const metadata = {
 }
 
 export default function Page({ params }: { params: { blogId: string } }) {
-  // @todo: fetch blog content by id
-  const blogId = decodeURIComponent(params.blogId)
-  const blog = posts.find((post) => post.title === blogId)
-  if (!blog) {
+  const post = getBlogPost(params.blogId)
+  
+  if (!post) {
     return redirect('/404')
   }
-  return <blog.component title={blog.title} description={blog.description} imageUrl={blog.imageUrl} />
+
+  return (
+    <BlogContent
+      title={post.title}
+      description={post.description}
+      imageUrl={post.image}
+    >
+      <div className="w-full flex justify-center mx-auto text-base leading-7 text-gray-700">
+        <MarkdownRenderer content={post.content} />
+      </div>
+    </BlogContent>
+  )
 }
