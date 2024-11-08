@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Features | Structured',
-  description: 'Page description',
+  description: 'Automating data discovery with AI',
 }
 
 export default function Home() {

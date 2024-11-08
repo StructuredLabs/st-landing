@@ -5,12 +5,12 @@ import MarkdownRenderer from '@/components/ui/markdown-renderer'
 
 export const metadata = {
   title: 'Blog Content | Structured',
-  description: 'Page description',
+  description: 'Automating data discovery with AI',
 }
 
 export default function Page({ params }: { params: { blogId: string } }) {
   const post = getBlogPost(params.blogId)
-  
+
   if (!post) {
     return redirect('/404')
   }
