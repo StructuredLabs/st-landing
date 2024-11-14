@@ -1,4 +1,5 @@
 import { getAllBlogPosts } from '@/utils/blog'
+import { redirect } from 'next/navigation'
 
 export const metadata = {
   title: 'Blogs | Structured',
@@ -7,6 +8,9 @@ export const metadata = {
 
 export default function Page() {
   const posts = getAllBlogPosts()
+
+  // redirect to https://structuredlabs.substack.com/
+  redirect('https://structuredlabs.substack.com/')
 
   return (
     <div className="bg-white py-24 sm:py-32">

@@ -26,7 +26,7 @@ const products = [
   {
     name: 'Blog',
     description: 'Check out our blog for cool articles, fresh ideas, and the latest news.',
-    href: '/blog',
+    href: 'https://structuredlabs.substack.com/',
     icon: TbLogs
   },
   {
@@ -110,7 +110,9 @@ export default function Example() {
                         <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-blue-600" />
                       </div>
                       <div className="flex-auto">
-                        <a href={item.href} className="block  text-gray-900">
+                        <a
+                        target={item.href.startsWith('http') ? '_blank' : '_self'}
+                        href={item.href} className="block  text-gray-900">
                           {item.name}
                           <span className="absolute inset-0" />
                         </a>
