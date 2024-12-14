@@ -26,17 +26,18 @@ import {
 // ---------------
 
 // pageContent.js
-export const heroPageTitle = "The simplest ";
-export const heroPageEmphasis = "metrics ";
-export const heroPageEnd = "platform for modern data teams";
+export const heroPageTitle = "Build analytics ";
+export const heroPageEmphasis = "data apps ";
+export const heroPageEnd = "at the speed of thought";
 
 export const heroPageSubtitle =
-  "Stop wrestling with broken data models. Structured helps you find and fix problems quickly so you can trust your metrics and move faster.";
+  "Ingest, transform, and visualize your data in minutes. No heavy infrastructure. No steep learning curve.";
 
-export const featuresHomePageTitle = "The Smarter Way to Manage Data Models";
+export const featuresHomePageTitle =
+  "Structured is the fastest way to manage your data models, metrics, and dashboards.";
 export const heroPageImageUrl = "/images/glossary.png";
 export const featuresHomePageSubtitle =
-  "Structured's AI builds and governs your semantic layer, eliminating bad metrics and drift.";
+  "Skip the modern data stack bloat and get straight to building something that works.";
 
 export const featuresHomePage = [
   {
@@ -47,16 +48,16 @@ export const featuresHomePage = [
     icon: BookOpenIcon,
   },
   {
-    name: "Adaptive Data Modeling",
+    name: "Built-in everything",
     description:
-      "Your data changes, and our models automatically keep up. No manual updates, no headaches. Your models stay current, always.",
+      "Forget duct-taping tools together. Ingest, clean, and transform your data right here. One tool, end-to-end.",
     href: "https://docs.structuredlabs.com/",
     icon: BellAlertIcon,
   },
   {
-    name: "Metrics You Can Count On",
+    name: "Production-ready apps",
     description:
-      "Dashboards that don’t break. Numbers that are always right. We make sure your metrics stay reliable, so your decisions can too.",
+      "Build real apps, not throwaway dashboards. Deploy with a single command, integrate anywhere, and scale when you’re ready.",
     href: "https://docs.structuredlabs.com/",
     icon: TicketIcon,
   },
@@ -174,7 +175,6 @@ export const integrations = [
   { alt: "Snowflake", src: "/images/snowflake.svg" },
   { alt: "Postgres", src: "/images/postgres.svg" },
 ];
-
 
 export const featuresPageSection3ImgUrl = "/images/glossary.png";
 export const featuresPageSection3Title = "Transform Data into Trusted Insights";
