@@ -1,5 +1,11 @@
-import { heroPageSubtitle, heroPageTitle, heroPageEmphasis, heroPageEnd, heroPageImageUrl } from "./pageContent"
 import AppScreenshot from '@/components/appscreenshot'
+
+export const heroPageTitle = "Code, connect and deploy interactive data apps faster than ever."; 
+
+export const heroPageSubtitle =
+  "Ingest, transform, and visualize your data in minutes. No heavy infrastructure. No steep learning curve.";
+
+
 
 export default function Hero() {
   return (
@@ -40,7 +46,10 @@ function YCombinatorBadge() {
       <p className="relative rounded-full bg-gray-50 mb-6 px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-inset ring-gray-900/5 flex items-center">
         <img src="/images/investors/YC.png" alt="YC Logo" className="h-4 w-4 mr-2 ml-2" />
         <span className="hidden md:inline">Backed by Y Combinator&nbsp; &nbsp;</span>
-        <a href="https://www.ycombinator.com/companies/structured" className="font-semibold text-slate-800">
+        <a href="https://www.ycombinator.com/companies/structured" 
+          target="_blank"
+          rel="noopener noreferrer"
+        className="font-semibold text-slate-800">
           <span aria-hidden="true" className="absolute inset-0" />
           {' '} Read more {' '}
           <span aria-hidden="true">&rarr;</span>
@@ -53,14 +62,10 @@ function YCombinatorBadge() {
 /* Hero Title Component */
 function HeroTitle() {
   return (
-    <h1 className="text-4xl tracking-wide leading-[2rem] text-gray-900 sm:text-5xl relative z-10">
-      {heroPageTitle}
-      <span className="bg-gradient-to-r from-[#05a0ed] to-[#7580e0] bg-clip-text text-transparent font-bold animate-gradient-move bg-[length:200%_200%]">
-        {heroPageEmphasis}
-      </span>
-      {heroPageEnd}
+    <h1 className="text-4xl tracking-wide text-gray-900 sm:text-5xl relative z-10">
+      <div>{heroPageTitle}</div>
     </h1>
-  )
+  );
 }
 
 /* Call to Action Buttons Component */
@@ -71,6 +76,7 @@ function CallToActionButtons() {
         <a
           href="https://app.structuredlabs.com/"
           target="_blank"
+          rel="noopener noreferrer"
           className="rounded-md bg-slate-900 px-3 py-2 text-md font-semibold text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
         >
           Get started

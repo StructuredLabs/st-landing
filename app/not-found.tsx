@@ -13,7 +13,7 @@ export default function NotFound() {
                         >
                             Go back home
                         </a>
-                        <a href="/contact" className="text-sm font-semibold text-gray-900">
+                        <a href="mailto:amrutha@structuredlabs.com" className="text-sm font-semibold text-gray-900">
                             Contact support <span aria-hidden="true">&rarr;</span>
                         </a>
                     </div>
