@@ -11,7 +11,7 @@ export default function CTA() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="https://app.structuredlabs.com/"
+              href="https://cloud.structuredlabs.com/"
               className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
             >
               Get started
@@ -25,11 +25,11 @@ export default function CTA() {
             aria-hidden="true"
             className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
           >
-            <circle r={512} cx={512} cy={512} fill="url(#light-gray-blue-gradient)" fillOpacity="0.7" />
+            <circle r={512} cx={512} cy={512} fill="url(#light-gray-gradient)" fillOpacity="0.7" />
             <defs>
-              <radialGradient id="light-gray-blue-gradient">
-                <stop stopColor="#B0BEC5" />
-                <stop offset={1} stopColor="#42A5F5" />
+              <radialGradient id="light-gray-gradient">
+                <stop stopColor="#818c91" />
+                <stop offset={1} stopColor="#3f4952" />
               </radialGradient>
             </defs>
           </svg>

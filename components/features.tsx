@@ -17,7 +17,7 @@ export default function Features() {
             {featuresHomePage.map((feature) => (
               <div key={feature.name} className="flex flex-col">
                 <dt className="text-lg font-semibold leading-8 text-gray-900">
-                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 hover:animate-pulse">
+                  <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-slate-900 hover:animate-pulse">
                     <feature.icon aria-hidden="true" className="h-7 w-7 text-white" />
                   </div>
                   {feature.name}
@@ -25,7 +25,7 @@ export default function Features() {
                 <dd className="mt-1 flex flex-auto flex-col text-lg leading-8 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
                   <p className="mt-4">
-                    <a href={feature.href} className="text-base font-semibold leading-7 text-blue-600">
+                    <a href={feature.href} className="text-base font-semibold leading-7 text-slate-900">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
                   </p>
