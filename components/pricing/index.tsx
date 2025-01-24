@@ -2,17 +2,11 @@
 
 import { useState } from 'react'
 import {
-  Dialog,
-  DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
   Radio,
   RadioGroup,
 } from '@headlessui/react'
-import { Bars3Icon, MinusSmallIcon, PlusSmallIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { CheckIcon } from '@heroicons/react/20/solid'
-import { pricingFaqs, pricingPageSubtitle, pricingPageTitle, pricing } from '../pageContent';
+import { pricingPageSubtitle, pricingPageTitle, pricing } from '../pageContent';
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
