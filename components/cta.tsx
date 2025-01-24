@@ -12,11 +12,16 @@ export default function CTA() {
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="https://console.structuredlabs.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
             >
               Get started
             </a>
-            <a href="https://docs.structuredlabs.com/" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="https://docs.structuredlabs.com/" 
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="text-sm font-semibold leading-6 text-gray-900">
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>

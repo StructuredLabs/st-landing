@@ -15,18 +15,10 @@ import {
 import { TbLogs } from "react-icons/tb"
 
 const navigation = [
-  { name: 'Home', href: '/' },
-  { name: 'Pricing', href: '/pricing' },
+  { name: 'GitHub', href: 'https://github.com/StructuredLabs/preswald' },
   { name: 'Documentation', href: 'https://docs.structuredlabs.com' },
-]
-
-const products = [
-  {
-    name: 'Blog',
-    description: 'Check out our blog for cool articles, fresh ideas, and the latest news.',
-    href: 'https://structuredlabs.substack.com/',
-    icon: TbLogs
-  }
+  { name: 'Pricing', href: '/pricing' },
+  { name: 'Blog', href: 'https://structuredlabs.substack.com/' },
 ]
 
 export default function Example() {
@@ -50,45 +42,12 @@ export default function Example() {
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 focus:outline-none">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} 
-                  target={item.name === 'Docs' ? '_blank' : '_self'} 
-                  rel={item.name === 'Docs' ? 'noopener noreferrer' : undefined} 
+                  target={item.name !== 'Pricing'  ? '_blank' : '_self'} 
+                  rel={item.name !== 'Pricing' ? 'noopener noreferrer' : undefined} 
               className="text-md  leading-6 text-gray-900">
                 {item.name}
               </a>
             ))}
-            <Popover className="relative focus:outline-none">
-              <PopoverButton className="flex items-center gap-x-1 text-md  leading-6 text-gray-900 focus:outline-none">
-                Resources
-                <ChevronDownIcon aria-hidden="true" className="h-3 w-3 flex-none text-gray-400" />
-              </PopoverButton>
-
-              <PopoverPanel
-                transition
-                className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
-              >
-                <div className="p-4">
-                  {products.map((item) => (
-                    <div
-                      key={item.name}
-                      className="group relative flex gap-x-6 rounded-lg p-4 text-md leading-6 hover:bg-gray-50"
-                    >
-                      <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-slate-600" />
-                      </div>
-                      <div className="flex-auto">
-                        <a
-                        target={item.href.startsWith('http') ? '_blank' : '_self'}
-                        href={item.href} className="block  text-gray-900">
-                          {item.name}
-                          <span className="absolute inset-0" />
-                        </a>
-                        <p className="mt-1 text-gray-600">{item.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </PopoverPanel>
-            </Popover>
           </PopoverGroup>
           <div className="flex flex-1 items-center justify-end gap-x-6">
             <a href="https://console.structuredlabs.com/"                 
@@ -156,24 +115,6 @@ export default function Example() {
                     </a>
                   ))}
                 </div>
-                <Disclosure as="div" className="-mx-3 border-none">
-                  <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base  leading-7 text-gray-900 hover:bg-gray-50">
-                    Resources
-                    <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-[open]:rotate-180" />
-                  </DisclosureButton>
-                  <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products].map((item) => (
-                      <DisclosureButton
-                        key={item.name}
-                        as="a"
-                        href={item.href}
-                        className="block rounded-lg py-2 pl-6 pr-3 text-md  leading-7 text-gray-900 hover:bg-gray-50"
-                      >
-                        {item.name}
-                      </DisclosureButton>
-                    ))}
-                  </DisclosurePanel>
-                </Disclosure>
                 <div className="py-6 border-none">
                   <a
                     href="https://console.structuredlabs.com/"

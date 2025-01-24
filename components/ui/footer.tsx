@@ -3,45 +3,41 @@ import { AiFillSlackCircle } from "react-icons/ai";
 
 const navigation = {
   company: [
-    { name: 'Home', href: '/' },
-    { name: 'Pricing', href: '/pricing' },
-    { name: 'Contact', href: '/contact' },
-    { name: 'Documentation', href: 'https://docs.structuredlabs.com' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Status', href: 'https://structured.instatus.com/' },
+    { name: "GitHub", href: "https://github.com/StructuredLabs/preswald" },
+    { name: "Pricing", href: "/pricing" },
+    { name: "Contact", href: "https://cal.com/structured" },
+    { name: "Documentation", href: "https://docs.structuredlabs.com" },
+    { name: "Blog", href: "https://structuredlabs.substack.com/" },
+    { name: "Status", href: "https://structured.instatus.com/" },
   ],
   legal: [
-    { name: 'Privacy Policy', href: '/privacy-policy' },
-    { name: 'Terms of Service', href: '/terms-of-service' },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms-of-service" },
   ],
   social: [
     {
-      name: 'Linkedin',
-      href: 'https://www.linkedin.com/company/structuredlabs/',
-      icon: (props: any) => (
-        <FaLinkedin className="h-6 w-6" />
-      ),
+      name: "Linkedin",
+      href: "https://www.linkedin.com/company/structuredlabs/",
+      icon: FaLinkedin,
     },
     {
-      name: 'X',
-      href: 'https://x.com/StructuredLabs',
-      icon: (props: any) => (
+      name: "X",
+      href: "https://x.com/StructuredLabs",
+      icon: (props:any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
         </svg>
       ),
     },
     {
-      name: 'Slack',
-      href: 'https://structured-users.slack.com/join/shared_invite/zt-265ong01f-UHP6BP3FzvOmMQDIKty_JQ#/shared-invite/email-',
-      icon: (props: any) => (
-        <AiFillSlackCircle className="h-6 w-6" />
-      ),
+      name: "Slack",
+      href: "https://structured-users.slack.com/join/shared_invite/zt-265ong01f-UHP6BP3FzvOmMQDIKty_JQ#/shared-invite/email",
+      icon: AiFillSlackCircle,
     },
     {
-      name: 'GitHub',
-      href: 'https://github.com/StructuredLabs/',
-      icon: (props: any) => (
+      name: "GitHub",
+      href: "https://github.com/StructuredLabs/",
+      icon: (props:any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -52,9 +48,9 @@ const navigation = {
       ),
     },
     {
-      name: 'YouTube',
-      href: 'https://www.youtube.com/@Structured-Labs',
-      icon: (props: any) => (
+      name: "YouTube",
+      href: "https://www.youtube.com/@Structured-Labs",
+      icon: (props:any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"
@@ -65,17 +61,15 @@ const navigation = {
       ),
     },
   ],
-}
+};
 
 export default function Footer() {
   return (
-    <footer aria-labelledby="footer-heading" className="bg-white">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
+    <footer className="bg-white">
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="space-y-8">
+        <div className="flex flex-wrap justify-between">
+          {/* Left Section */}
+          <div className="w-full lg:w-1/3 space-y-8">
             <img
               alt="Structured"
               src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/65d4da523a7af018c0b99c71_TransparentLogo.png"
@@ -83,58 +77,80 @@ export default function Footer() {
             />
             <div className="flex items-center space-x-4 mt-8">
               <span className="text-sm text-gray-600">Backed by:</span>
-                <a href="https://www.ycombinator.com">
-                    <img src="/images/investors/YC.png" alt="YC" className="h-10" />
-                </a>
-                <a href="https://www.generalcatalyst.com">
-                    <img src="/images/investors/GC.png" alt="GC" className="h-10" />
-                </a>
+              <a
+                href="https://www.ycombinator.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/investors/YC.png" alt="YC" className="h-10" />
+              </a>
+              <a
+                href="https://www.generalcatalyst.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/investors/GC.png" alt="GC" className="h-10" />
+              </a>
             </div>
-              <div className="flex space-x-6 mt-8">
+            <div className="flex space-x-6 mt-8">
               {navigation.social.map((item) => (
-                <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
-                  <span className="sr-only">{item.name}</span>
+                <a
+                  key={item.name}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-gray-500"
+                >
                   <item.icon aria-hidden="true" className="h-6 w-6" />
                 </a>
               ))}
             </div>
           </div>
-          
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+
+          {/* Right Section */}
+          <div className="w-full mt-16 grid grid-cols-2 gap-8 lg:w-2/3 lg:mt-0 lg:grid-cols-4">
+            <div>
+              <h3 className="text-sm font-semibold text-gray-900">Company</h3>
+              <ul className="mt-4 space-y-2">
+                {navigation.company.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-sm text-gray-600 hover:text-gray-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
-                <ul role="list" className="mt-4 space-y-2">
-                  {navigation.company.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
-                <ul role="list" className="mt-4 space-y-2">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div>
+              <h3 className="text-sm font-semibold text-gray-900">Legal</h3>
+              <ul className="mt-4 space-y-2">
+                {navigation.legal.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-sm text-gray-600 hover:text-gray-900"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-500">&copy; 2025 Structured Labs, Inc. All rights reserved.</p>
+        <div className="mt-16 border-t border-gray-900/10 pt-8">
+          <p className="text-xs text-gray-500">
+            &copy; 2025 Structured Labs, Inc. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }

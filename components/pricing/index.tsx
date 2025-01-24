@@ -6,7 +6,68 @@ import {
   RadioGroup,
 } from '@headlessui/react'
 import { CheckIcon } from '@heroicons/react/20/solid'
-import { pricingPageSubtitle, pricingPageTitle, pricing } from '../pageContent';
+
+export const pricingPageTitle = "Pricing That Scales with You";
+export const pricingPageSubtitle =
+  "Get your metrics right from day one, eliminate discrepancies, and make better decisions with plans that grow with your business.";
+
+export const pricing = {
+  frequencies: [
+    { value: "monthly", label: "Monthly", priceSuffix: "/user/month" },
+    { value: "annually", label: "Annually", priceSuffix: "/user/year" },
+  ],
+  tiers: [
+    {
+      name: "Open Source",
+      id: "tier-free",
+      href: "https://github.com/StructuredLabs/preswald/",
+      price: { monthly: "Free", annually: "Free" },
+      description: "The essentials to get your metrics under control.",
+      audience: "",
+      features: [
+        "Interactive components",
+        "Custom branding",
+        "Local deployment (self-hosting)",
+        "Connect PostgreSQL/CSV",
+      ],
+      mostPopular: false,
+      buttonText: "Free Forever",
+    },
+    {
+      name: "Pro",
+      id: "tier-pro",
+      href: "https://console.structuredlabs.com/",
+      price: { monthly: "$29", annually: "$299" },
+      description: "More power and flexibility as your data needs grow.",
+      audience: "",
+      features: [
+        "Basic authentication setup",
+        "Advanced components",
+        "Connect to data warehouses",
+        "Deploy to major cloud providers",
+      ],
+      mostPopular: true,
+      buttonText: "Buy Plan",
+    },
+    {
+      name: "Enterprise",
+      id: "tier-enterprise",
+      href: "https://cal.com/structured/30min",
+      price: { monthly: "Custom", annually: "Custom" },
+      description: "Custom solutions built for large-scale organizations.",
+      audience: "",
+      features: [
+        "Single Sign-On (SSO)",
+        "On-premises deployment",
+        "Custom components",
+        "Support for high data volumes",
+      ],
+      mostPopular: false,
+      buttonText: "Contact us",
+    },
+  ],
+};
+
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
