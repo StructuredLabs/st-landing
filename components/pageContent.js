@@ -128,7 +128,7 @@ export const pricing = {
     {
       name: "Pro",
       id: "tier-pro",
-      href: "https://cloud.structuredlabs.com/",
+      href: "https://console.structuredlabs.com/",
       price: { monthly: "$29", annually: "$299" },
       description: "More power and flexibility as your data needs grow.",
       audience: "",
