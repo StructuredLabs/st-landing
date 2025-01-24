@@ -13,13 +13,11 @@ import {
   PopoverPanel,
 } from '@headlessui/react'
 import { TbLogs } from "react-icons/tb"
-import { MdOutlinePodcasts } from "react-icons/md"
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Features', href: '/features' },
   { name: 'Pricing', href: '/pricing' },
-  { name: 'Docs', href: 'https://docs.structuredlabs.com' },
+  { name: 'Documentation', href: 'https://docs.structuredlabs.com' },
 ]
 
 const products = [
@@ -28,12 +26,6 @@ const products = [
     description: 'Check out our blog for cool articles, fresh ideas, and the latest news.',
     href: 'https://structuredlabs.substack.com/',
     icon: TbLogs
-  },
-  {
-    name: 'Podcasts',
-    description: 'Tune into our podcasts for fun chats, expert interviews, and deep dives into various topics.',
-    href: '/podcast',
-    icon: MdOutlinePodcasts
   }
 ]
 
@@ -42,32 +34,6 @@ export default function Example() {
 
   return (
     <>
-      {/* Banner at the top of the page */}
-      <div className="flex items-center gap-x-6 bg-gray-900 px-6 py-2.5 sm:px-3.5 sm:before:flex-1">
-        <p className="text-sm leading-6 text-white">
-          <a href="https://techcrunch.com/startup-battlefield/company/structured/" target="_blank" rel="noopener noreferrer" className="flex items-center">
-            {/* TechCrunch Logo */}
-            <img
-              src="/images/investors/tc.png" // Use your preferred TechCrunch logo URL
-              alt="TechCrunch Logo"
-              className="h-4 w-6 mr-2" // Adjust size and spacing as needed
-            />
-            <strong className="font-semibold">Structured chosen as one of TechCrunch Disrupt 2024's top 200 startups.</strong>
-            <svg viewBox="0 0 2 2" aria-hidden="true" className="mx-2 inline h-0.5 w-0.5 fill-current">
-              <circle r={1} cx={1} cy={1} />
-            </svg>
-            See More&nbsp;<span aria-hidden="true">&rarr;</span>
-          </a>
-        </p>
-        <div className="flex flex-1 justify-end">
-          <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
-            <span className="sr-only">Dismiss</span>
-            {/* <XMarkIcon aria-hidden="true" className="h-5 w-5 text-white" /> */}
-          </button>
-        </div>
-      </div>
-
-
       {/* Header section */}
       <header className="bg-white">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8">
@@ -107,7 +73,7 @@ export default function Example() {
                       className="group relative flex gap-x-6 rounded-lg p-4 text-md leading-6 hover:bg-gray-50"
                     >
                       <div className="mt-1 flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                        <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-blue-600" />
+                        <item.icon aria-hidden="true" className="h-6 w-6 text-gray-600 group-hover:text-slate-600" />
                       </div>
                       <div className="flex-auto">
                         <a
@@ -125,15 +91,17 @@ export default function Example() {
             </Popover>
           </PopoverGroup>
           <div className="flex flex-1 items-center justify-end gap-x-6">
-            <a href="https://app.structuredlabs.com/" className="hidden lg:block lg:text-md lg: lg:leading-6 lg:text-gray-900">
+            <a href="https://cloud.structuredlabs.com/"                 
+            target='_blank' rel="noopener noreferrer"
+            className="hidden lg:block lg:text-md lg: lg:leading-6 lg:text-gray-900">
               Log in
             </a>
             <a
-              href="https://cal.com/structured/30min"
+              href="https://cloud.structuredlabs.com/"
               target='_blank'
               className="rounded-md bg-slate-900 px-3 py-2 text-md  text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
             >
-              Book a Demo
+              Sign Up
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -160,11 +128,11 @@ export default function Example() {
                 />
               </a>
               <a
-                href="https://cal.com/structured/30min"
-                target='_blank'
-                className="ml-auto rounded-md bg-blue-600 px-3 py-2 text-md  text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
+                href="https://cloud.structuredlabs.com"
+                target='_blank' rel="noopener noreferrer"
+                className="ml-auto rounded-md bg-slate-600 px-3 py-2 text-md  text-white shadow-sm hover:bg-slate-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
               >
-                Book a Demo
+                Sign Up
               </a>
               <button
                 type="button"
@@ -208,7 +176,8 @@ export default function Example() {
                 </Disclosure>
                 <div className="py-6 border-none">
                   <a
-                    href="https://app.structuredlabs.com/"
+                    href="https://cloud.structuredlabs.com/"
+                    target='_blank' rel="noopener noreferrer"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     Log in

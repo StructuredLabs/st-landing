@@ -1,15 +1,10 @@
 import { heroPageSubtitle, heroPageTitle, heroPageEmphasis, heroPageEnd, heroPageImageUrl } from "./pageContent"
-import TopGradientShape from "@/components/ui/TopGradientShape"
-import BottomGradientShape from '@/components/ui/BottomGradientShape'
 import AppScreenshot from '@/components/appscreenshot'
 
 export default function Hero() {
   return (
     <div className="bg-white relative">
       <div className="relative isolate">
-        
-        {/* Top gradient shape */}
-        <TopGradientShape />
 
         {/* Main content */}
         <div className="py-24 sm:py-24 lg:pb-32 relative z-10">
@@ -27,9 +22,6 @@ export default function Hero() {
               
               {/* Call to Action Buttons */}
               <CallToActionButtons />
-              
-              {/* Bottom Gradient Shape */}
-              <BottomGradientShape />
             </div>
 
             {/* Image Section */}

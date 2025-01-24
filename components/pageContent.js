@@ -1,19 +1,7 @@
 import {
-  ChartBarIcon,
   TicketIcon,
-  ShareIcon,
-  PresentationChartLineIcon,
   BellAlertIcon,
-  QuestionMarkCircleIcon,
-  CpuChipIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  PuzzlePieceIcon,
-  ArrowPathIcon,
   ClockIcon,
-  Cog6ToothIcon,
-  CheckCircleIcon,
-  ArrowsRightLeftIcon,
   BookOpenIcon,
   ArrowPathRoundedSquareIcon,
   ShieldCheckIcon,
@@ -108,165 +96,6 @@ export const features2 = [
 ];
 
 // ---------------
-// Features Page
-// ---------------
-
-export const featuresPageSubtitle =
-  "Set up in minutes. Define metrics that everyone trusts, eliminate inconsistencies, and speed up data-driven decisions without the headaches.";
-export const featuresPageSection1ImgUrl = "/images/datasources.png";
-export const featuresPageSectionTag = "Effortless Onboarding";
-export const featuresPageSectionTitle = "Streamlined Workflow";
-export const featuresPageSectionSubtitle =
-  "With Structured, unify your metric definitions, automate governance, and empower your teams to make smarter, faster decisions with confidence.";
-
-export const featuresPageSection1 = [
-  {
-    name: "Real-Time Data Sync",
-    description:
-      "Keep your metrics fresh. Automatically sync data from all your sources in real-time, so you're never working with outdated numbers.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "Automated Documentation",
-    description:
-      "Stop writing documentation manually. Structured auto-generates it for you, keeping everything transparent and easy to understand.",
-    icon: PuzzlePieceIcon,
-  },
-  {
-    name: "Secure & Compliant",
-    description:
-      "Your data is safe with us. We use advanced security protocols to protect your information and keep you compliant with industry regulations.",
-    icon: LockClosedIcon,
-  },
-];
-
-export const featuresPageSection2Tag = "Designed for Clarity";
-export const featuresPageSection2Title = "Eliminate Data Discrepancies";
-export const featuresPageSection2Subtitle =
-  "No more conflicting reports. With Structured, everyone works from the same consistent metrics, ensuring your teams are aligned and confident in the data.";
-export const featuresPageSection2ImgUrl = "/images/entity_snowflake.png";
-
-export const featuresPageSection2 = [
-  {
-    name: "Instant Anomaly Alerts",
-    description:
-      "Get notified immediately when something doesn’t look right. Structured flags unusual metric changes so you can fix issues fast.",
-    href: "https://docs.structuredlabs.com/",
-    icon: ClockIcon,
-  },
-  {
-    name: "Efficient Data Requests",
-    description:
-      "Need data from another team? Use our integrated ticketing system to handle requests smoothly without chasing people down.",
-    href: "https://docs.structuredlabs.com/",
-    icon: TicketIcon,
-  },
-  {
-    name: "Comprehensive Audit Logs",
-    description:
-      "Track every change with full audit logs, ensuring transparency and accountability in how metrics are created and adjusted.",
-    href: "https://docs.structuredlabs.com/",
-    icon: ArrowPathIcon,
-  },
-];
-
-export const integrations = [
-  { alt: "BigQuery", src: "/images/bigquery.svg" },
-  { alt: "Snowflake", src: "/images/snowflake.svg" },
-  { alt: "Postgres", src: "/images/postgres.svg" },
-];
-
-export const featuresPageSection3ImgUrl = "/images/glossary.png";
-export const featuresPageSection3Title = "Transform Data into Trusted Insights";
-export const featuresPageSection3Subtitle =
-  "Structured bridges information gaps, ensuring every stakeholder has access to accurate and consistent metrics.";
-
-export const botPageSubtitle =
-  "Get up and running in minutes. Automate your dbt workflows, ensure consistent model definitions, and streamline your data pipeline directly within GitHub.";
-export const botPageSection1ImgUrl = "images/dbt_copilot.png";
-export const botPageSectionTag = "Fast and Simple Setup";
-export const botPageSectionTitle = "Automate Your dbt Workflow";
-export const botPageSectionSubtitle =
-  "With the dbt Copilot, you can automate your dbt project tasks, catch issues early, and collaborate seamlessly within GitHub.";
-
-export const botPageSection1 = [
-  {
-    name: "Real-Time Model Sync",
-    description:
-      "Sync your dbt models and dependencies in real time across your GitHub repository. Keep your project up-to-date without manual syncing.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "Automated PR Checks",
-    description:
-      "Ensure that every pull request in your dbt project passes automated checks for model consistency, freshness, and structure. Catch issues before they hit production.",
-    icon: PuzzlePieceIcon,
-  },
-  {
-    name: "Secure & Compliant Workflows",
-    description:
-      "Your dbt models are safe. Our GitHub app adheres to best-in-class security practices to protect your data and keep your workflows compliant with industry standards.",
-    icon: LockClosedIcon,
-  },
-];
-
-export const botPageSection2Tag = "Designed for Clarity";
-export const botPageSection2Title = "Keep Your Models Consistent";
-export const botPageSection2Subtitle =
-  "Stop worrying about inconsistent models or failed builds. The dbt Copilot helps ensure every change is governed, documented, and aligned with best practices.";
-export const botPageSection2ImgUrl = "images/dbt_model_check.png";
-
-export const botPageSection2 = [
-  {
-    name: "Instant Model Validation",
-    description:
-      "Get instant feedback on model issues right in GitHub. The dbt Copilot flags schema discrepancies, performance bottlenecks, and validation errors before they go live.",
-    href: "https://docs.dbtcopilot.com/",
-    icon: ClockIcon,
-  },
-  {
-    name: "Streamlined Data Requests",
-    description:
-      "Automate and track data requests between teams, keeping communication and collaboration smooth with integrated GitHub issues and pull requests.",
-    href: "https://docs.dbtcopilot.com/",
-    icon: TicketIcon,
-  },
-  {
-    name: "Detailed Audit Logs",
-    description:
-      "Track every change to your dbt models with comprehensive audit logs, making it easy to understand who made what change and why.",
-    href: "https://docs.dbtcopilot.com/",
-    icon: ArrowPathIcon,
-  },
-];
-
-export const botPageSection3ImgUrl = "images/dbt_insights.png";
-export const botPageSection3Title = "Transform Models into Actionable Insights";
-export const botPageSection3Subtitle =
-  "With dbt Copilot, bridge the gap between your dbt models and stakeholders, ensuring everyone is aligned with accurate, real-time insights.";
-
-export const botPageSection3 = [
-  {
-    name: "Interactive Model Exploration",
-    icon: Cog6ToothIcon,
-    description:
-      "Dive deep into your dbt models directly from GitHub, and explore their dependencies, freshness, and performance in real time.",
-  },
-  {
-    name: "Resolve Data Issues Quickly",
-    icon: CheckCircleIcon,
-    description:
-      "Handle ad-hoc data issues quickly, leveraging GitHub issues and pull requests to keep your models consistent and error-free.",
-  },
-  {
-    name: "Centralized Model Documentation",
-    icon: ArrowsRightLeftIcon,
-    description:
-      "Maintain a unified, auto-generated glossary of your dbt models and metrics, ensuring that everyone in your organization has a clear understanding of what each model does.",
-  },
-];
-
-// ---------------
 // Pricing Page
 // ---------------
 
@@ -276,42 +105,41 @@ export const pricingPageSubtitle =
 
 export const pricing = {
   frequencies: [
-    { value: "monthly", label: "Monthly", priceSuffix: "/month" },
-    { value: "annually", label: "Annually", priceSuffix: "/year" },
+    { value: "monthly", label: "Monthly", priceSuffix: "/user/month" },
+    { value: "annually", label: "Annually", priceSuffix: "/user/year" },
   ],
   tiers: [
     {
-      name: "Starter",
-      id: "tier-starter",
-      href: "https://app.structuredlabs.com/",
-      price: { monthly: "$0", annually: "$0" },
+      name: "Open Source",
+      id: "tier-free",
+      href: "https://github.com/StructuredLabs/preswald/",
+      price: { monthly: "Free", annually: "Free" },
       description: "The essentials to get your metrics under control.",
-      audience: "Great for small teams starting with data governance.",
+      audience: "",
       features: [
-        "Connect to 1 Data Warehouse",
-        "Up to 5 Users",
-        "Basic Metrics Library",
-        "Community Support",
+        "Interactive components",
+        "Custom branding",
+        "Local deployment (self-hosting)",
+        "Connect PostgreSQL/CSV",
       ],
       mostPopular: false,
-      buttonText: "Get Started Free",
+      buttonText: "Free Forever",
     },
     {
-      name: "Professional",
-      id: "tier-professional",
-      href: "https://app.structuredlabs.com/settings/account",
-      price: { monthly: "$544", annually: "$6400" },
+      name: "Pro",
+      id: "tier-pro",
+      href: "https://cloud.structuredlabs.com/",
+      price: { monthly: "$29", annually: "$299" },
       description: "More power and flexibility as your data needs grow.",
-      audience: "Perfect for mid-size companies needing customization.",
+      audience: "",
       features: [
-        "Connect to 3 Data Warehouses",
-        "Up to 25 Users",
-        "Custom Metric Definitions",
-        "Integrated Ticketing System",
-        "Email Support",
+        "Basic authentication setup",
+        "Advanced components",
+        "Connect to data warehouses",
+        "Deploy to major cloud providers",
       ],
       mostPopular: true,
-      buttonText: "Choose Professional",
+      buttonText: "Buy Plan",
     },
     {
       name: "Enterprise",
@@ -319,40 +147,15 @@ export const pricing = {
       href: "https://cal.com/structured/30min",
       price: { monthly: "Custom", annually: "Custom" },
       description: "Custom solutions built for large-scale organizations.",
-      audience: "For enterprises that need unlimited access and control.",
+      audience: "",
       features: [
-        "Unlimited Data Warehouse Connections",
-        "Unlimited Users",
-        "Dedicated Account Manager",
-        "Priority Support",
-        "Custom Integrations",
-        "Advanced Security Features",
+        "Single Sign-On (SSO)",
+        "On-premises deployment",
+        "Custom components",
+        "Support for high data volumes",
       ],
       mostPopular: false,
-      buttonText: "Contact Sales",
+      buttonText: "Contact us",
     },
   ],
 };
-
-export const pricingFaqs = [
-  {
-    question: "How does Structured connect with my data warehouse?",
-    answer:
-      "Structured integrates with popular data warehouses like BigQuery and Snowflake in a few clicks. It’s built to make setup painless.",
-  },
-  {
-    question: "Can I customize metrics?",
-    answer:
-      "Yes, you can fully customize metric definitions to fit your specific business goals, making sure everyone’s on the same page.",
-  },
-  {
-    question: "What support can I expect?",
-    answer:
-      "Our Starter plan offers community support. Professional gets you email support, and Enterprise gives you priority access with a dedicated account manager.",
-  },
-  {
-    question: "Is my data secure?",
-    answer:
-      "Yes. Structured uses advanced encryption and follows industry standards to keep your data safe.",
-  },
-];

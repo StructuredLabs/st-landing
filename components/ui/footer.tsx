@@ -4,12 +4,10 @@ import { AiFillSlackCircle } from "react-icons/ai";
 const navigation = {
   company: [
     { name: 'Home', href: '/' },
-    { name: 'Features', href: '/features' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'Contact', href: '/contact' },
-    { name: 'Docs', href: 'https://docs.structuredlabs.com' },
+    { name: 'Documentation', href: 'https://docs.structuredlabs.com' },
     { name: 'Blog', href: '/blog' },
-    { name: 'Podcasts', href: '/podcast' },
     { name: 'Status', href: 'https://structured.instatus.com/' },
   ],
   legal: [
@@ -92,12 +90,6 @@ export default function Footer() {
                     <img src="/images/investors/GC.png" alt="GC" className="h-10" />
                 </a>
             </div>
-            <div className="flex items-center space-x-4 mt-4">
-              <span className="text-sm text-gray-600">🔒 Built with security and privacy: </span>
-                <a href="">
-                    <img src="/images/soc2type1-badge.png" alt="soc2type1badge" className="h-20" />
-                </a>
-            </div>
               <div className="flex space-x-6 mt-8">
               {navigation.social.map((item) => (
                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
@@ -140,7 +132,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-500">&copy; 2024 Structured Labs, Inc. All rights reserved.</p>
+          <p className="text-xs leading-5 text-gray-500">&copy; 2025 Structured Labs, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
