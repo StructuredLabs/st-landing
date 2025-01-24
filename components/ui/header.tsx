@@ -91,13 +91,13 @@ export default function Example() {
             </Popover>
           </PopoverGroup>
           <div className="flex flex-1 items-center justify-end gap-x-6">
-            <a href="https://cloud.structuredlabs.com/"                 
+            <a href="https://console.structuredlabs.com/"                 
             target='_blank' rel="noopener noreferrer"
             className="hidden lg:block lg:text-md lg: lg:leading-6 lg:text-gray-900">
               Log in
             </a>
             <a
-              href="https://cloud.structuredlabs.com/"
+              href="https://console.structuredlabs.com/"
               target='_blank'
               className="rounded-md bg-slate-900 px-3 py-2 text-md  text-white shadow-sm hover:bg-slate-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-800"
             >
@@ -128,7 +128,7 @@ export default function Example() {
                 />
               </a>
               <a
-                href="https://cloud.structuredlabs.com"
+                href="https://console.structuredlabs.com"
                 target='_blank' rel="noopener noreferrer"
                 className="ml-auto rounded-md bg-slate-600 px-3 py-2 text-md  text-white shadow-sm hover:bg-slate-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-600"
               >
@@ -176,7 +176,7 @@ export default function Example() {
                 </Disclosure>
                 <div className="py-6 border-none">
                   <a
-                    href="https://cloud.structuredlabs.com/"
+                    href="https://console.structuredlabs.com/"
                     target='_blank' rel="noopener noreferrer"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base  leading-7 text-gray-900 hover:bg-gray-50"
                   >
