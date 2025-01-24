@@ -14,7 +14,7 @@ export default function Hero() {
           
           {/* Hero Content */}
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
-            <div className="mx-auto max-w-2xl text-center">
+            <div className="mx-auto max-w-2xl text-center mb-8">
               <HeroTitle />
               <p className="mt-6 text-xl leading-8 text-gray-600">
                 {heroPageSubtitle}
