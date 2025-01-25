@@ -18,7 +18,7 @@ const navigation = [
   { name: 'GitHub', href: 'https://github.com/StructuredLabs/preswald' },
   { name: 'Documentation', href: 'https://docs.structuredlabs.com' },
   { name: 'Pricing', href: '/pricing' },
-  { name: 'Blog', href: 'https://structuredlabs.substack.com/' },
+  { name: 'Blog', href: 'https://blog.structuredlabs.com' },
 ]
 
 export default function Example() {
