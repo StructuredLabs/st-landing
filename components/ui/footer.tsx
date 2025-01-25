@@ -7,7 +7,7 @@ const navigation = {
     { name: "Pricing", href: "/pricing" },
     { name: "Contact", href: "https://cal.com/structured" },
     { name: "Documentation", href: "https://docs.structuredlabs.com" },
-    { name: "Blog", href: "https://structuredlabs.substack.com/" },
+    { name: "Blog", href: "https://blog.structuredlabs.com" },
     { name: "Status", href: "https://structured.instatus.com/" },
   ],
   legal: [
