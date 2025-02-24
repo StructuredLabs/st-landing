@@ -7,7 +7,7 @@ export default function CTA() {
             Ready to make data work for you?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-600">
-              Start your free trial today and effortlessly explore, document, and trust your data.
+            Start your free trial today and effortlessly explore, document, and trust your data.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
@@ -18,10 +18,10 @@ export default function CTA() {
             >
               Get started
             </a>
-            <a href="https://docs.structuredlabs.com/" 
-            target="_blank"
-            rel="noopener noreferrer" 
-            className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="https://docs.preswald.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold leading-6 text-gray-900">
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>

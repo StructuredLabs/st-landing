@@ -16,7 +16,7 @@ import { TbLogs } from "react-icons/tb"
 
 const navigation = [
   { name: 'GitHub', href: 'https://github.com/StructuredLabs/preswald' },
-  { name: 'Documentation', href: 'https://docs.structuredlabs.com' },
+  { name: 'Documentation', href: 'https://docs.preswald.com' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Blog', href: 'https://blog.structuredlabs.com' },
 ]
@@ -41,18 +41,18 @@ export default function Example() {
           </div>
           <PopoverGroup className="hidden lg:flex lg:gap-x-12 focus:outline-none">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} 
-                  target={item.name !== 'Pricing'  ? '_blank' : '_self'} 
-                  rel={item.name !== 'Pricing' ? 'noopener noreferrer' : undefined} 
-              className="text-md  leading-6 text-gray-900">
+              <a key={item.name} href={item.href}
+                target={item.name !== 'Pricing' ? '_blank' : '_self'}
+                rel={item.name !== 'Pricing' ? 'noopener noreferrer' : undefined}
+                className="text-md  leading-6 text-gray-900">
                 {item.name}
               </a>
             ))}
           </PopoverGroup>
           <div className="flex flex-1 items-center justify-end gap-x-6">
-            <a href="https://console.structuredlabs.com/"                 
-            target='_blank' rel="noopener noreferrer"
-            className="hidden lg:block lg:text-md lg: lg:leading-6 lg:text-gray-900">
+            <a href="https://console.structuredlabs.com/"
+              target='_blank' rel="noopener noreferrer"
+              className="hidden lg:block lg:text-md lg: lg:leading-6 lg:text-gray-900">
               Log in
             </a>
             <a
