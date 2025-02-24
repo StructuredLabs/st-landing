@@ -34,7 +34,7 @@ export default function Example() {
               <span className="sr-only">Structured</span>
               <img
                 alt=""
-                src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/65d4da523a7af018c0b99c71_TransparentLogo.png"
+                src="/images/high-contrast-logo.png"
                 className="h-9 w-auto"
               />
             </a>
@@ -82,7 +82,7 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <img
                   alt=""
-                  src="https://cdn.prod.website-files.com/65d4d703fd133afa1bee8167/65d4da523a7af018c0b99c71_TransparentLogo.png"
+                  src="/images/high-contrast-logo.png"
                   className="h-8 w-auto"
                 />
               </a>
