@@ -26,7 +26,7 @@ const navigation = {
     },
     {
       name: 'Slack',
-      href: 'https://structured-users.slack.com/join/shared_invite/zt-265ong01f-UHP6BP3FzvOmMQDIKty_JQ#/shared-invite/email-',
+      href: 'https://preswald-community.slack.com/join/shared_invite/zt-265ong01f-UHP6BP3FzvOmMQDIKty_JQ',
       icon: (props: any) => <FaSlack className="h-6 w-6" />,
     },
   ],
