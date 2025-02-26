@@ -4,7 +4,7 @@ const navigation = {
   company: [
     { name: "Product", href: "https://www.preswald.com" },
     { name: "Contact", href: "mailto:founders@structuredlabs.com" },
-    { name: "Blog", href: "https://www.blog.structuredlabs.com/" },
+    { name: "Blog", href: "https://blog.structuredlabs.com/" },
     { name: "Documentation", href: "https://docs.preswald.com" },
   ],
   social: [
