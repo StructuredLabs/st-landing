@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Mission() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-[80vh] text-black text-xl font-serif text-center px-6 leading-relaxed mb-4">
+        <div className="flex flex-col items-center justify-center min-h-[80vh] text-black text-xl font-serif text-center px-6 leading-relaxed mb-8">
             <div className="max-w-2xl w-full">
                 <img src="/images/high-contrast-logo.png" alt="Logo" className="w-48 h-auto mt-12 mb-12 mx-auto" />
 
